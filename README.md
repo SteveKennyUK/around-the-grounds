@@ -1,102 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Around The Grounds
+  
+ 
+This website has been created for my Interactive Frontend Development Milestone 2 project, the second project on the [Code Institute Diploma in Software Development](https://codeinstitute.net/) course.
 
-Welcome SteveKennyUK,
+This project introduces interactivity through the use of JavaScript. The aim is to demonstrate the ability to create a Frontend site which allows users to actively engage with data and alter the way information is displayed in order to achieve their preferred goals.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+'Around The Grounds' provides the locations of the English Premier League football grounds in the London area, displayed using Google Maps. The primary aim is to allow users to locate their desired ground(s), display information about their selected ground(s) and request further information, including tour details, using a Contact form.
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## User Experience (UX)
 
 ---
 
-Happy coding!
+This application will follow the principles of User Centred Design (UCD), which will focus on placing users at the centre of the design and development process.
+ 
+This site has two principal user goals to consider.
+
+1.  **Site/Business Owners** - the interests of the site/business owners are twofold. The primary focus is to provide users with information about London Premier League football grounds and encourage them to book official tours to the grounds. The second aim is to work towards creating and expanding a business by impressing the value of the website on football club business operatives, encouraging future partnerships to promote and sell their tours.
+
+2.  **Site Users** - the main focus of the site will be to provide information to users about London Premier League football grounds. It is anticipated that the vast majority of users will already have some interest in football. However, there will be other users with little previous interest in the game who would find the site useful e.g. visitors to London. Either way, it is expected that most users would rely on mobile devices to view the website. I am drawing on the experience of myself and friends as followers of football and users of football related sites to create the user goals for this site.
+  
+
+### Project Strategy
+---
+-  #### Site Owner/Business Goals
+
+	* As the site owner, I want features and content that will engage new users quickly, encourage them to explore the site and draw them back in the future.
+
+	* As the site owner, I want users to be able to interact with the site and easily find the information that interests them.
+	
+	* As the site owner, I want to provide users with useful information without overloading them.
+
+	* As the site owner, I want the site to be accessible to all users.
+	
+	* As the site owner, I want to demonstrate the value of the site to potential business partners.
+
+  
+
+-  #### User Goals (general)
+
+	* As a user, I want to be immediately drawn into the site and understand its main purpose.
+
+	* As a user, I want to be able to easily identify what I need and navigate the site to get to it.
+
+	* As a user, I want concise but informative content, displayed in an aesthetic and appealing manner.
+
+	* As a user, I want to be able to view the site clearly and intuitively on different device sizes.
+
+	* As a user, I expect the site to be fully accessible.
+
+-  #### User Stories (customer users)
+
+	* As a new visitor, I want to be quickly reassured that this site will be of interest to me.
+
+	* As a new visitor, I want to be able to identify the content of the site and be able to easily navigate to areas of interest e.g. can I visit the stadiums?
+	
+	* As a new visitor, I would like to know where the stadiums are located. 
+	
+	* As a new or returning visitor, I would like to be able to interact with the site so that I can easily display only the information on the stadiums that are of interest to me.
+
+	* As a frequent visitor, I would like to be able to access further information on the site content, share my experiences and connect with other users of the site.
