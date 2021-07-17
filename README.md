@@ -76,26 +76,15 @@ The features to include in this first development stage will be determined by cr
  #### Strategy Trade-offs
 
  Opportunity | Importance | Viability
-
 ----------- | ---------- | ---------
-
 Clear and intuitive navigational links | 5 | 5
-
 Interactive map displaying locations | 5 | 5
-
 User-controlled display of information on each stadium | 5 | 5 
-
 Functioning additional information form for users | 5 | 5
-
 Responsive for all device sizes | 5 | 5
-
 Social media links | 4 | 5
-
 Facilities around the stadiums | 4 | 3
-
 Direct ticket booking system | 4 | 1
-
 Individual pages for each stadium | 3 | 3
-
 
 The higher feasibility elements will be incorporated in this first stage of development.
