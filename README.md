@@ -88,3 +88,49 @@ Direct ticket booking system | 4 | 1
 Individual pages for each stadium | 3 | 3
 
 The higher feasibility elements will be incorporated in this first stage of development.
+
+### Project Structure
+---
+The structural design of the site aims to make the user interaction with the site as easy and as comfortable as possible. This is achieved by creating meaningful relationships between the various site elements so that users can intuitively understand their meaning and purpose.
+
+The principles of Interactive Design (IxD) promote consistency, predictability, visibility, learnability and feedback as central to the above aim. The structure of this site aims to follow these principles.  
+
+-  #### Page Structure
+
+	- As the first developmental stage of this project will follow a MVP pathway, it is felt that a single HTML page would suit best. The use of interactive elements will enable the user to make changes to the page content without changing the overall size of the page. The desire is to make the user experience more comfortable by simply scrolling down one relatively compact page rather than moving between separate pages. A smooth scrolling style will reinforce this. Once the site evolves as desired, additional pages can be added e.g. each stadium having a dedicated page with further information and features. 
+
+	- The 'Home' page will immediately address some of the user goals, with clear directions to desired content through navigation links, calls to action and meaningful images. These are consistent with previous user experiences on other sites.
+
+	- The main user goals will be addressed in the 'Stadiums' section, which follows the 'Home' section. This section will have an individual background image and link in the navigation bar, which is again predictable and consistent with previous user experience. The relationship between site and user is key in this section, with buttons and prompts in place to assist with the user's interactive experience.
+
+	- A separate contact section is also expected. The 'Contact' section allows for a contact form where users can request further information, particularly regarding stadium tours. Input fields will react to user actions, which will provide reassuring feedback to the user. As the site develops and expands, this section would most likely have its own dedicated page as user expectations would change.
+
+	- Time permitting, it is the intention to create a separate 404 error page in the event of a broken link or server error. This feedback adds reassurance to the user and provides them with clear instructions on how to return to the site.
+
+  
+-  #### Visibility
+
+	- The location and purpose of elements should be clear to users. Where appropriate, a scroll down arrow will be employed to indicate to the user that useful content is below. There will also be a floating scroll up arrow so users can return to the top of the screen with a single click from anywhere on the page. The smooth scroll styling will enable the user to understand the page layout and where the various elements are located. In addition, there will be partial overlay of elements on the screens to hint to the user that there is more content below.
+  
+-  #### Navigation
+
+	- The site navigation will again be consistent and predictable by following the convention of the site logo on the top left with a horizontal navigation bar to the right of the logo. As there is not a large number of pages to navigate through, this is the most appropriate method. The user will only need one click to reach the required destination. Should the site evolve in the future, a more appropriate navigation system could be considered.
+
+	- It is felt that a fixed navigation bar will not be required for the single page site. The navigation links and floating scroll up arrow will reduce the amount of scrolling required by the user.
+
+	- The navigation bar will be responsive and will use a hamburger menu for smaller devices. This is consistent and predictable with most sites on mobile devices. The menu will then push the page content down when activated to maximise visibility of the options.  
+
+-  #### Buttons and Links
+
+	- Buttons and links will be used to create a smoother navigation process for the user. The purpose of these must be made clear to the user. Buttons and links will react when the mouse hovers over them. This conventionally suggests that clicking on the button or link will make something happen. The use of unambiguous text or iconography will make it clear to the user what will happen when the button or link is clicked.
+
+	- Styling the buttons and links in a consistent manner and employing the same reaction when e.g. the mouse hovers will help the user to learn and predict what they need to do to achieve their goals.
+
+	- When a button is clicked, the user will be provided with some feedback to reassure them that their action has been acknowledged. This will be either a change in the button appearance or a confirmation message. This builds trust with the user.
+  
+
+-  #### Iconography
+
+	- Icons will be used to help users to quickly identify content matter. A visual representation can say more than words and often stands out more. A quick scan of the page will pick out icons and well chosen ones will stand out and immediately assure the user as to the associated content.
+
+	- The site logo acts in a similar fashion and the user quickly learns to associate the image with the site and its purpose. A favicon, using an image of a football, will be also be added. This is now generally expected by users and helps them to identify the site if they have several pages open.
