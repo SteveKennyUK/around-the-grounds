@@ -59,3 +59,43 @@ This site has two principal user goals to consider.
 	* As a new or returning visitor, I would like to be able to interact with the site so that I can easily display only the information on the stadiums that are of interest to me.
 
 	* As a frequent visitor, I would like to be able to access further information on the site content, share my experiences and connect with other users of the site.
+
+
+### Project Scope
+
+---
+
+Looking at the User and Owner/Business Goals, there are plenty of features and content which could be included in the site to attempt to satisfy all their needs. However, a number of factors limit what would be possible or desirable to include in the first development stage.
+
+The main constraints are time and the current technological expertise of the developer. The decisions made at this stage are designed to avoid making the scope too large, such that the project becomes overloaded and fails to meet deadlines or making it too small, such that there is an unimpressive end result.
+
+The first development stage aims to create a Minimal Viable Product, providing users with the core requirements that they actually need. Additional features can be added at future developmental stages, once feedback has been received from the initial site features.  
+
+The features to include in this first development stage will be determined by creating a strategy trade-off table, drawing on the user goals and needs.
+
+ #### Strategy Trade-offs
+
+ Opportunity | Importance | Viability
+
+----------- | ---------- | ---------
+
+Clear and intuitive navigational links | 5 | 5
+
+Interactive map displaying locations | 5 | 5
+
+User-controlled display of information on each stadium | 5 | 5 
+
+Functioning additional information form for users | 5 | 5
+
+Responsive for all device sizes | 5 | 5
+
+Social media links | 4 | 5
+
+Facilities around the stadiums | 4 | 3
+
+Direct ticket booking system | 4 | 1
+
+Individual pages for each stadium | 3 | 3
+
+
+The higher feasibility elements will be incorporated in this first stage of development.
