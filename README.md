@@ -275,3 +275,79 @@ The layout and content of the site has been designed with the User Experience at
 	- W3Schools was used for coding guidance and clarification.
 
 1. [Google Maps JavaScriptAPI](https://developers.google.com/maps/documentation/javascript/overview) was used to create  the map element and its interactive components.
+
+## Deployment
+
+---
+
+### GitHub Pages
+This project has been deployed to GitHub Pages. The deployment process is as follows -
+1. Log in to GitHub and locate the [relevant repository](https://github.com/SteveKennyUK/around-the-grounds). If you do not have a GitHub account, you may create one [here](https://github.com/join).
+
+2. At the top of the repository, select 'Settings'. See below -
+
+![ ](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/deployment/image-1.JPG)
+
+3. On the 'Settings' page, scroll down the menu on the left-hand side and select 'Pages', near the bottom of the menu. See below -
+
+![ ](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/deployment/image-2.JPG)
+ 
+This will open GitHub pages.
+
+4. Under 'Source', click the dropdown titled 'None' and select the 'main' branch. Click on 'Save'. See below -
+
+![ ](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/deployment/image-3.JPG)
+
+5. The page will automatically refresh and inform you that the site is ready to be published and provide the https:// address. See below -
+
+![ ](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/deployment/image-4.JPG)
+
+6. A [link](https://stevekennyuk.github.io/around-the-grounds/) to the now published site can be found in the GitHub 'Pages' section of 'Settings'.
+
+### Forking the GitHub Repository
+
+It is possible to fork this GitHub repository and make a copy of the original repository to view and/or make changes without affecting the original. This is achieved by following these steps -  
+
+1. Log in to your GitHub account and locate the [relevant repository](https://github.com/SteveKennyUK/around-the-grounds).
+
+2. Click on 'Fork', located at the top right-hand side of the repository page.
+
+![ ](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/deployment/image-5.JPG)
+
+3. You will now have a copy of the repository in your own GitHub account.
+
+### Making a Local Clone
+
+It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original repository.  
+
+Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time. See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information and below for a summary -
+
+1. Log in to your GitHub account and locate the [relevant repository](https://github.com/SteveKennyUK/around-the-grounds).
+
+2. Click on the 'Code' button, next to the green 'Gitpod' button. This will reveal the 'Clone' option.
+
+3. In order to clone the repository using HTTPS, select HTTPS and copy the link. There is a copy button to the right of the URL.
+
+![ ](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/deployment/image-6.JPG)
+
+4. Next, open Git Bash. See [here](https://git-scm.com/downloads) for download options, if required.
+
+5. Change the current working directory on your local machine to the location where you want the cloned directory to be made.
+
+6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3.
+```
+$ git clone https://github.com/SteveKennyUK/around-the-grounds.git
+```
+7. Press Enter.
+
+8. Your local clone will be created.
+```
+$ git clone https://github.com/SteveKennyUK/around-the-grounds.gitCloning into 'around-the-grounds'...
+remote: Enumerating objects: 89, done.
+remote: Counting objects: 100% (89/89), done.
+remote: Compressing objects: 100% (70/70), done.
+remote: Total 89 (delta 30), reused 63 (delta 15), pack-reused 0
+Receiving objects: 100% (89/89), 1.53 MiB | 7.39 MiB/s, done.
+Resolving deltas: 100% (30/30), done.
+```
+See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on the above processes.
