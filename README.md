@@ -7,6 +7,61 @@ This project introduces interactivity through the use of JavaScript. The aim is 
 
 'Around The Grounds' provides the locations of the English Premier League football grounds in the London area, displayed using Google Maps. The primary aim is to allow users to locate their desired ground(s), display information about their selected ground(s) and request further information, including tour details, using a Contact form.
 
+## [View the live project here.](https://stevekennyuk.github.io/around-the-grounds/)
+
+# Table of contents  
+
+-  [UX](#ux)
+
+	-  [Project Strategy](#project-strategy)
+
+		-  [Site Owner/Business Goals](#site-ownerbusiness-goals)
+
+		-  [User Goals (general)](#user-goals-general)
+
+		-  [User Stories (customer users)](#user-stories-customer-users)
+
+	-  [Project Scope](#project-scope)
+
+		-  [Strategy Trade-off](#strategy-trade-offs)
+	
+	-  [Project Structure](#project-structure)
+
+		-  [Page Structure](#page-structure)
+
+		-  [Visibility](#visibility)
+
+		-  [Navigation](#navigation)
+
+		-  [Buttons and Links](#buttons-and-links)
+
+		-  [Iconography](#iconography)
+
+	-  [Project Design](#project-design)
+
+		-  [General Layout](#general-layout)
+
+		-  [Colour Scheme](#colour-scheme)
+
+		-  [Typography](#typography)
+
+		-  [Imagery](#imagery)
+
+		-  [Wireframes](#wireframes)  
+
+-  [Features](#features)
+
+	-  [Existing Features](#existing-features)
+
+	-  [Future Features](#future-features)
+
+-  [Technologies Used](#technologies-used)
+
+-  [Testing](#testing)
+
+-  [Deployment](#deployment)
+
+-  [Credits](#credits)
 ## User Experience (UX)
 
 ---
@@ -88,6 +143,8 @@ Direct ticket booking system | 4 | 1
 Individual pages for each stadium | 3 | 3
 
 The higher feasibility elements will be incorporated in this first stage of development.
+
+[Return to Table of contents](#table-of-contents)
 
 ### Project Structure
 ---
@@ -190,6 +247,13 @@ The layout and content of the site has been designed with the User Experience at
 
 	-  [Large Screen](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/wireframes/around-the-grounds-large-screen-wireframe.pdf) Wireframe
 
+[Return to Table of contents](#table-of-contents)
+
+## Features
+---
+### Existing Features
+### Future Features
+
 ## Technologies Used
 ---
 ### Languages Used
@@ -276,6 +340,10 @@ The layout and content of the site has been designed with the User Experience at
 
 1. [Google Maps JavaScriptAPI](https://developers.google.com/maps/documentation/javascript/overview) was used to create  the map element and its interactive components.
 
+## Testing
+---
+Testing details can be found [here](TESTING.md).
+
 ## Deployment
 
 ---
@@ -351,3 +419,23 @@ Receiving objects: 100% (89/89), 1.53 MiB | 7.39 MiB/s, done.
 Resolving deltas: 100% (30/30), done.
 ```
 See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on the above processes.
+
+## Credits
+
+### Code
+
+### Content
+
+### Media
+Images were either created by the developer or sourced from third parties. Please see below for third party sources,
+- General
+	- [Favicon image](https://github.com/SteveKennyUK/around-the-grounds/tree/main/assets/images/favicon) by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=157930">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=157930">Pixabay</a>
+
+- Home Section
+
+	-  [Hero image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/football-pitch.jpg) courtesy of [Clipart Library](http://clipart-library.com/clipart/pi5rLM7rT.htm#google_vignette).
+### Acknowledgements
+
+### Notice
+
+- This site has been created for educational purposes only.
