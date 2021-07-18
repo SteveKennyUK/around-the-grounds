@@ -134,3 +134,59 @@ The principles of Interactive Design (IxD) promote consistency, predictability, 
 	- Icons will be used to help users to quickly identify content matter. A visual representation can say more than words and often stands out more. A quick scan of the page will pick out icons and well chosen ones will stand out and immediately assure the user as to the associated content.
 
 	- The site logo acts in a similar fashion and the user quickly learns to associate the image with the site and its purpose. A favicon, using an image of a football, will be also be added. This is now generally expected by users and helps them to identify the site if they have several pages open.
+
+### Project Design
+
+---
+
+The layout and content of the site has been designed with the User Experience at the forefront. The typical user will be someone interested in football. The site therefore needs to engage with this type of user and make them feel at ease. The design needs to be lively and employ concepts with which these users are familiar.
+
+  
+
+-  #### General Layout
+
+	- The design will broadly follow the 'rule of thirds' to provide a visually comforting experience to the user. Where appropriate, sections will be divided into thirds or one-third to two-thirds ratios.
+
+	- Sizing of elements will be balanced and proportional to again improve the visual comfort of the site. Where appropriate, measurements will use rem units to help with responsiveness.
+
+	- Layouts will be responsive to different screen sizes, particularly as many users will be expected to view the site on mobile devices. Consequently, the layout will change according to media size e.g. three horizontal columns on a desktop may become three vertical columns on a mobile phone.
+
+  
+
+-  #### Colour Scheme
+
+	- The colour scheme for this site is important to help the user feel immediately comfortable. Green tones reflecting the grass of the football pitch should feature prominently. Fans of the Premier League will also be familiar with the colour scheme used by the organisation, which features purple tones prominently on media content.
+	- The [Coolors](https://coolors.co/ffca3a-8ac926-1982c4-6a4c93-343330-fffbfe) website was used to assist in choosing a colour scheme. The 'Stadiums' section of the website will have a background image of a football pitch so this was used to generate a colour palette which complements the greens of this image. It also includes a purple shade to reflect the Premier League.
+![Around The Grounds Colour Scheme](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/around-the-grounds-colour-palette.png)
+	- The standard #000 Black and #FFF white will also be used where appropriate.
+	- The headers and footers will have a lighter colour to contrast with the page content. 
+	- Colours will be checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines.
+
+-  #### Typography
+
+	- The font choices for the site will again consider the user and remain consistent with their experiences and expectations. Consideration has been given  to football related media in choosing a font scheme. The Premier League created its own font for use on their [website](https://www.premierleague.com/home). This font is called 'PremierSans' and is not freely available so a similar font was sought.
+
+	-  The [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto&preview.text=Premier%20league&preview.text_type=custom#standard-styles) font on [Google Fonts](https://fonts.google.com/) has a similar look and feel to 'PremierSans'. It is a popular font as it flows well, is easy to read and makes the user feel comfortable. It is for these reasons that this will be the primary font for the site. Sans serif will act as a fall-back font in case the chosen fonts are not imported correctly.
+
+  
+
+-  #### Imagery
+
+	- Football can be an emotive subject and imagery plays an important part in tapping into that emotion when it comes to engaging with users. Users will expect football related images. In particular, given the subject matter of the site, they will expect to be able to see football grounds and pitches.
+
+	- Each section will have a hero image to catch the user's attention and draw them into the page. This is consistent, predictable and learnable, thus helping to achieve a positive emotional response in the user.
+
+-  #### Wireframes
+
+  
+
+	-  [Small Screen](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/wireframes/around-the-grounds-small-screen-wireframe.pdf) Wireframe
+
+  
+
+	-  [Medium Screen](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/wireframes/around-the-grounds-medium-screen-wireframe.pdf) Wireframe
+
+  
+
+	-  [Large Screen](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/wireframes/around-the-grounds-large-screen-wireframe.pdf) Wireframe
+
