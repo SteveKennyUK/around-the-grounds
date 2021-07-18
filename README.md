@@ -190,3 +190,88 @@ The layout and content of the site has been designed with the User Experience at
 
 	-  [Large Screen](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/wireframes/around-the-grounds-large-screen-wireframe.pdf) Wireframe
 
+## Technologies Used
+---
+### Languages Used
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5) for structuring the site
+
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) for styling the site
+
+-  [JavaScript](https://en.wikipedia.org/wiki/JavaScript) for site logic
+
+	- Although no specific naming methodology will be employed (such as BEM), class and function names will be descriptive of their purpose so that they can be easily identifiable to other developers.
+
+	- Comments will be placed appropriately within the HTML, CSS and JS code to improve readability.
+
+  
+
+### Frameworks, Libraries & Programs Used
+
+  
+
+1.  [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+
+	- Bootstrap was used to assist with the responsiveness and styling of the website.
+
+1.  [Hover.css:](https://ianlunn.github.io/Hover/)
+
+	- Hover.css was used on the Social Media icons to add the float transition while being hovered over.
+
+1.  [Google Fonts:](https://fonts.google.com/)
+
+	- Google Fonts was used to import the 'Roboto' font into the style.css file, which is used throughout the project.
+
+1.  [Font Awesome:](https://fontawesome.com/)
+
+	- Font Awesome was used to add icons for aesthetic and UX purposes.
+
+1.  [jQuery:](https://jquery.com/)
+
+	- jQuery was used to assist with manipulation of the Document Object Model to make the site interactive for users.
+
+1.  [Git](https://git-scm.com/)
+
+	- Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+1.  [GitHub:](https://github.com/)
+
+	- GitHub is used to store the project code after being pushed from Git.
+
+1.  [Balsamiq:](https://balsamiq.com/)
+
+	- Balsamiq was used to create the [wireframes](https://github.com/SteveKennyUK/around-the-grounds/tree/main/assets/wireframes) during the design process.
+
+1.  [Looka:](https://looka.com/)
+
+	- Looka was used to create the website logo.
+
+1.  [GIMP:](https://www.gimp.org/)
+
+	- GIMP was used to resize images and edit photos for the website.
+
+1.  [favicon.io:](https://favicon.io/favicon-converter/)
+
+	- favicon.io was used to convert the football image to a favicon to enable full web browser compatibility.
+
+1.  [WebAIM](https://webaim.org/resources/contrastchecker/)
+
+	- WebAIM was used to check that foreground and background colour contrasts meet WCAG accessibility requirements.
+
+1.  [Webformatter](https://webformatter.com)
+
+	- Webformatter was used to assist in optimising code readability.
+
+1.  [Autoprefixer](https://autoprefixer.github.io/)
+
+	- Autoprefixer was used to parse CSS and add vendor prefixes.
+
+1.  [TinyPNG](https://tinypng.com/)
+
+	- Tiny PNG was used for image compression.
+
+1.  [W3Schools](https://www.w3schools.com/)
+
+	- W3Schools was used for coding guidance and clarification.
+
+1. [Google Maps JavaScriptAPI](https://developers.google.com/maps/documentation/javascript/overview) was used to create  the map element and its interactive components.
