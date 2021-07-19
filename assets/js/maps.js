@@ -69,7 +69,36 @@
     for (let i = 0; i < stadiums.length; i++) {
         const marker = new google.maps.Marker({
             position: new google.maps.LatLng(stadiums[i].lat, stadiums[i].lng),
+            map: map,
+            title: stadiums[i].name,
+            animation: google.maps.Animation.DROP,
         });
-        marker.setMap(map);
+        // Create information windows for each marker
+        // 1) Create empty array to store information for windows 
+        var infoObj = [];
+        // 2) Create content for each window
+        let markerContent = `<h3>` + stadiums[i].name + `</h3>` + 
+        `<p> Home of ` + stadiums[i].club + `</p>`;
+        // 3) Set up the information windows, adding the content and width
+        const infoWindow = new google.maps.InfoWindow({
+            content: markerContent,
+            maxWidth: 400
+        });
+        // 4) Add event listener for when each marker is clicked
+        marker.addListener("click", function() {
+            // Close any open windows, calling the closeOthers() function below
+            closeOthers();
+            // Open new window for the clicked marker
+            infoWindow.open(map, marker);
+            infoObj[0] = infoWindow;
+        });
+    }
+
+    function closeOthers() {
+        if (infoObj.length > 0) {
+            infoObj[0].set("marker", null);
+            infoObj[0].close();
+            infoObj[0].length = 0;
+        }
     }
 }
