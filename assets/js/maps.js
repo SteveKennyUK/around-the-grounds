@@ -6,7 +6,7 @@
    function initMap() {
     // Set initial map properties
     const mapProp = {
-        center: new google.maps.LatLng(51.509, -0.122),
+        center: new google.maps.LatLng(51.58, -0.09),
         zoom: 9,
         scrollwheel: true,
     };
@@ -78,7 +78,7 @@
         var infoObj = [];
         // 2) Create content for each window
         let markerContent = `<h3>` + stadiums[i].name + `</h3>` + 
-        `<p> Home of ` + stadiums[i].club + `</p>`;
+        `<p><strong> Home of ` + stadiums[i].club + `</strong></p>`;
         // 3) Set up the information windows, adding the content and width
         const infoWindow = new google.maps.InfoWindow({
             content: markerContent,
@@ -91,6 +91,14 @@
             // Open new window for the clicked marker
             infoWindow.open(map, marker);
             infoObj[0] = infoWindow;
+            // Zoom in when marker is clicked
+            map.setZoom(12);
+            map.setCenter(marker.getPosition());
+            // Zoom out when marker information window is closed
+            google.maps.event.addListener(infoWindow,'closeclick',function(){
+                map.setZoom(9);
+                map.setCenter({lat:51.58,lng:-0.09});
+            });
         });
     }
 
@@ -99,6 +107,8 @@
             infoObj[0].set("marker", null);
             infoObj[0].close();
             infoObj[0].length = 0;
+            map.setZoom(9);
         }
     }
+    
 }
