@@ -424,6 +424,9 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 ## Credits
 
 ### Code
+-  [Code Institute](https://stackoverflow.com) tutorials provided helpful guidance in creating the code for this project.
+- [Eamonn Smyth](https://code-institute-room.slack.com/archives/C7HD37Q1F/p1604655940148200?thread_ts=1604655940.148200&cid=C7HD37Q1F) provided guidance with using Google Maps API.
+-  [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System.
 
 ### Content
 
