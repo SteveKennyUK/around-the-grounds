@@ -15,7 +15,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 62.5%;
     font-weight: 400;
-    background-color: #000;
+    /* background-color: #000; */
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -24,6 +24,6 @@ body {
 
 
 #map {
-    height: 300px;
-    width: 500px;
+    height: 450px;
+    width: 100%;
 }
