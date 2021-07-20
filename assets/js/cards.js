@@ -1,4 +1,4 @@
-const card = document.getElementById("flip-card")
+const card = document.getElementById("flip-card");
 
 card.addEventListener("click", flipCard);
 
