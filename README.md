@@ -219,6 +219,9 @@ The layout and content of the site has been designed with the User Experience at
 	- The headers and footers will have a lighter colour to contrast with the page content. 
 	- Colours will be checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines.
 
+	 - **Additional colours**    
+    [#ff6161](https://icolorpalette.com/color/ff6161) - it was decided that the background colour of each card should be synonymous with the stadium/football club. This shade of red was chosen after checking the contrast with black text through WebAIM.
+
 -  #### Typography
 
 	- The font choices for the site will again consider the user and remain consistent with their experiences and expectations. Consideration has been given  to football related media in choosing a font scheme. The Premier League created its own font for use on their [website](https://www.premierleague.com/home). This font is called 'PremierSans' and is not freely available so a similar font was sought.
@@ -442,6 +445,8 @@ Images were either created by the developer or sourced from third parties. Pleas
 - Stadiums
 	- [Wembley Stadium](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/wembley-stadium.jpg) courtesy of [besthqwallpapers.com](https://besthqwallpapers.com/sport/wembley-stadium-new-wembley-football-stadium-evening-sunset-119280).
 	- [Wembley Stadium Logo](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/wembley-logo.png) courtesy of [logok.org](http://logok.org/).	
+
+	- [Flip Card Icon](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/flip-icon.jpg) courtesy of [Free Icons Library](https://icon-library.com/).
 ### Acknowledgements
 
 ### Notice
