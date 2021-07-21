@@ -74,18 +74,17 @@
             animation: google.maps.Animation.DROP,
         });
         // Create information windows for each marker
-        // 1) Create empty array to store information for windows 
+        // 1) Create empty array to store information for windows
         var infoObj = [];
         // 2) Create content for each window
-        let markerContent = `<h3>` + stadiums[i].name + `</h3>` + 
-        `<p><strong> Home of ` + stadiums[i].club + `</strong></p>`;
+        let markerContent = `<h3 class="text-center">` + stadiums[i].name + `</h3>` +  `<p class="text-center"><strong> Home of ` + stadiums[i].club + `</strong></p>`;
         // 3) Set up the information windows, adding the content and width
         const infoWindow = new google.maps.InfoWindow({
             content: markerContent,
-            maxWidth: 400
+            maxWidth: 400,
         });
         // 4) Add event listener for when each marker is clicked
-        marker.addListener("click", function() {
+        marker.addListener("click", function () {
             // Close any open windows, calling the closeOthers() function below
             closeOthers();
             // Open new window for the clicked marker
@@ -95,13 +94,23 @@
             map.setZoom(12);
             map.setCenter(marker.getPosition());
             // Zoom out when marker information window is closed
-            google.maps.event.addListener(infoWindow,'closeclick',function(){
+            google.maps.event.addListener(infoWindow, "closeclick", function () {
                 map.setZoom(9);
-                map.setCenter({lat:51.58,lng:-0.09});
+                map.setCenter({ lat: 51.58, lng: -0.09 });
             });
         });
+        /* Each time a marker is clicked, run a function to change the contents of the 
+        information cards to match the stadium marker that has been clicked*/
+        marker.addListener(
+            "click",
+            (function (i) {
+                return function () {
+                    document.getElementById("card-title").innerHTML = stadiums[i].club;
+                };
+            })(i)
+        );
     }
-
+    // Function to close an open info window when another info window is opened
     function closeOthers() {
         if (infoObj.length > 0) {
             infoObj[0].set("marker", null);
@@ -110,5 +119,4 @@
             map.setZoom(9);
         }
     }
-    
 }
