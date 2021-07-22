@@ -219,7 +219,9 @@ The layout and content of the site has been designed with the User Experience at
 	- The headers and footers will have a lighter colour to contrast with the page content. 
 	- Colours will be checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines.
 
-	 - **Additional colours**    
+	 - **Additional colours**
+	- [#7aac2b](https://icolorpalette.com/color/7aac2b) - the green shade in the palette looked too light for the navigation bar. The Google Dev Tools colour picker was used to find a more suitable, darker shade of green. This was checked with WebAIM. 
+
     It was decided that the background colour of each card should be synonymous with the stadium/football club. The following shades were chosen after checking background and foreground colours with WebAIM.
 		- [#ff6161](https://icolorpalette.com/color/ff6161) - light red shade.
 		- [#7f1734](https://icolorpalette.com/color/7f1734) - claret
