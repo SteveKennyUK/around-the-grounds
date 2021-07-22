@@ -26,7 +26,7 @@
             capacity: "60,361",
             year: "2006",
             address: "Emirates Stadium, Hornsey Road, London N7 7AJ",
-            station: "Drayton Park",
+            station: "Drayton Park/Arsenal/Finsbury Park",
             ticket: "020 7619 5000",
             website: "https://www.arsenal.com/the-club/emirates-stadium",
         },

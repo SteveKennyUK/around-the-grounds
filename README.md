@@ -434,6 +434,19 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 
 ### Content
 
+- Content written by the developer with assistance from the following resources -
+	- [The Stadium Guide](https://www.stadiumguide.com/)
+	- [Football Ground Guide](https://footballgroundguide.com/)
+	- [Arsenal F.C.](https://www.arsenal.com/)
+	- [Brentford F.C.](https://www.brentfordfc.com/)
+	- [Chelsea F.C.](https://www.chelseafc.com/en)
+	- [Crystal Palace F.C.](https://www.cpfc.co.uk/)
+	- [Tottenham Hotpsur F.C.](https://www.tottenhamhotspur.com/)
+	- [Watford F.C.](https://www.watfordfc.com/)
+	- [West Ham United F.C.](https://www.whufc.com/)
+	- [Wembley Stadium](https://www.wembleystadium.com/)
+
+
 ### Media
 Images were either created by the developer or sourced from third parties. Please see below for third party sources,
 - General
