@@ -29,12 +29,20 @@ p {
 #card-title {
     color: #fffbfe;
 }
+/*================================== Home section ==================================*/
+.hero-container {
+    background: url(../images/hero-image-home.jpg) center/cover no-repeat fixed;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
 /*================================== Stadiums section ==================================*/
 .stadiums-container {
     background: url(../images/football-pitch-vert.jpg) center/cover no-repeat fixed;
     height: 1400px;
     background-color: #000;
     position: relative;
+    border-radius: 0.75rem;
 }
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {

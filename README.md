@@ -457,9 +457,10 @@ Images were either created by the developer or sourced from third parties. Pleas
 
 - Home Section
 
-	-  [Hero image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/football-pitch.jpg) courtesy of [Clipart Library](http://clipart-library.com/clipart/pi5rLM7rT.htm#google_vignette).
+	-  [Hero image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/hero-image-home.jpg) courtesy of [Eminetra](https://eminetra.co.uk/anthony-joshuas-battle-with-usyk-confirmed-at-tottenham-hotspur-stadium-on-september-25/556211/#).
 
 - Stadiums
+	-  [Hero image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/football-pitch.jpg) courtesy of [Clipart Library](http://clipart-library.com/clipart/pi5rLM7rT.htm#google_vignette).
 	- [Wembley Stadium](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/wembley-stadium.jpg) image courtesy of [besthqwallpapers.com](https://besthqwallpapers.com/sport/wembley-stadium-new-wembley-football-stadium-evening-sunset-119280).
 	- [Brentford Community Stadium](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/brentford-stadium.jpg), [London Stadium](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/london-stadium.jpg), [Selhurst Park](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/selhurst-park.jpg) and [Vicarage Road](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/vicarage-road.jpg) images courtesy of [Clubs From Above](https://www.clubsfromabove.com/).
 	- [Stamford Bridge](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/chelsea-stadium.jpg) image courtesy of [Chelsea F.C.](https://www.chelseafc.com/en/news/2020/11/26/return-of-supporters-to-stamford-bridge)
