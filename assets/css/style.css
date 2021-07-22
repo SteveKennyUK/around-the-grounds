@@ -82,8 +82,28 @@ p {
     text-align: left;
 }
 
-.card-front {
+.card-front-red {
     background: #ff6161;
+    color: #000;
+}
+
+.card-front-stripe {
+    background: repeating-linear-gradient(
+  45deg,
+  #104e75,
+  #7f1734 50px,
+  #104e75 30px
+);
+   color: #fffbfe;
+}
+
+.card-front-blue {
+    background: #104e75;
+    color: #fff;
+}
+
+.card-front-yellow {
+    background: #ffca3a;
     color: #000;
 }
 

@@ -37,13 +37,14 @@
             club: "Brentford",
             logo: "assets/images/stadiums/brentford-crest.jpg",
             image: "assets/images/stadiums/brentford-stadium.jpg",
-            info:  "Located in West London, Brentford Community Stadium is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium.",
+            info:
+                "Located in West London, Brentford Community Stadium is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium.",
             capacity: "17,250",
             year: "2020",
             address: "166 Lionel Rd N, Brentford TW8 9QT",
             station: "Kew Bridge",
             ticket: "020 8847 2511",
-            website: "https://newstadium.brentfordfc.com/",    
+            website: "https://newstadium.brentfordfc.com/",
         },
         {
             lat: 51.48177,
@@ -52,7 +53,8 @@
             club: "Chelsea",
             logo: "assets/images/stadiums/chelsea-crest.jpg",
             image: "assets/images/stadiums/chelsea-stadium.jpg",
-            info: "Located in an affluent area of South West London, Stamford Bridge is the home ground for Chelsea, the current Champions League holders. There are plans in place for a full redevelopment of the stadium in time for the 2021-22 season.",
+            info:
+                "Located in an affluent area of South West London, Stamford Bridge is the home ground for Chelsea, the current Champions League holders. There are plans in place for a full redevelopment of the stadium in time for the 2021-22 season.",
             capacity: "41,837",
             year: "1877",
             address: "Stamford Bridge, Fulham Road, London SW6 1HS",
@@ -67,7 +69,8 @@
             club: "Crystal Palace",
             logo: "assets/images/stadiums/palace-crest.jpg",
             image: "assets/images/stadiums/selhurst-park.jpg",
-            info: "The home of Crystal Palace, Selhurst Park is situated in Norwood, South London. A mixture of old and new, the ground has traditional character. However, the club has announced plans to build a bigger, more modern main stand.",
+            info:
+                "The home of Crystal Palace, Selhurst Park is situated in Norwood, South London. A mixture of old and new, the ground has traditional character. However, the club has announced plans to build a bigger, more modern main stand.",
             capacity: "25,456",
             year: "1924",
             address: "Selhurst Park, Holmesdale Road, London SE25 6PU",
@@ -97,7 +100,8 @@
             club: "Watford",
             logo: "assets/images/stadiums/watford-crest.jpg",
             image: "assets/images/stadiums/vicarage-road.jpg",
-            info: "On the outskirts of North West London, Vicarage Road is home to Watford F.C. The traditional ground has been improved with the addition of the Sir Elton John Stand, named after the singer with a deep-rooted connection with the club.",
+            info:
+                "On the outskirts of North West London, Vicarage Road is home to Watford F.C. The traditional ground has been improved with the addition of the Sir Elton John Stand, named after the singer with a deep-rooted connection with the club.",
             capacity: "21,577",
             year: "1922",
             address: "Vicarage Road, Watford, WD18 0ER",
@@ -112,7 +116,8 @@
             club: "West Ham United",
             logo: "assets/images/stadiums/west-ham-crest.jpg",
             image: "assets/images/stadiums/london-stadium.jpg",
-            info: "Originally built in Stratford as the centrepiece stadium for the 2012 London Olympics, the stadium became the home of West Ham United in 2016. The stadium also continues to host athletics events as well as music concerts.",
+            info:
+                "Originally built in Stratford as the centrepiece stadium for the 2012 London Olympics, the stadium became the home of West Ham United in 2016. The stadium also continues to host athletics events as well as music concerts.",
             capacity: "60,000",
             year: "2012",
             address: "London Stadium, Queen Elizabeth Olympic Park, E20 2ST",
@@ -127,7 +132,8 @@
             club: "National Stadium",
             logo: "assets/images/stadiums/wembley-logo.png",
             image: "assets/images/stadiums/wembley-stadium.jpg",
-            info: "Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020.",
+            info:
+                "Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020.",
             capacity: "90,000",
             year: "2007",
             address: "Wembley Stadium, London HA9 0WS",
@@ -190,10 +196,23 @@
                     <li class="list-group-item"><i class="fas fa-ticket-alt" aria-hidden="true"></i><strong> Ticket Office: </strong><br> ${stadiums[i].ticket}</li>
                     <li class="list-group-item"><i class="fas fa-laptop" aria-hidden="true"></i><a href="${stadiums[i].website}" target="_blank" rel="noopener" aria-label="${stadiums[i].club} home page (link opens in a new tab)"><strong> Website</strong></a></li>
                     `;
+                    // Change the background colour of the front flip card to match club colours when the marker is clicked 
+                    let colour = $(document.getElementById("front-col"));
+
+                    if (i === 0 || i === 1 || i === 7) {
+                        colour.removeClass("card-front-stripe card-front-blue card-front-yellow").addClass("card-front-red");
+                    } else if (i === 3 || i === 6) {
+                        colour.removeClass("card-front-red card-front-blue card-front-yellow").addClass("card-front-stripe");
+                    } else if (i === 2 || i === 4) {
+                        colour.removeClass("card-front-red card-front-stripe card-front-yellow").addClass("card-front-blue");
+                    } else {
+                        colour.removeClass("card-front-red card-front-blue card-front-stripe").addClass("card-front-yellow");
+                    }
                 };
             })(i)
         );
     }
+
     // Function to close an open info window when another info window is opened
     function closeOthers() {
         if (infoObj.length > 0) {
