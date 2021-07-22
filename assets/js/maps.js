@@ -22,6 +22,7 @@
             club: "Arsenal",
             logo: "assets/images/stadiums/arsenal-crest.jpg",
             image: "assets/images/stadiums/emirates-stadium.jpg",
+            info: "Located in Islington, the Emirates Stadium is home to Arsenal F.C. and was built to replace their previous Highbury stadium. It also hosts music concerts and occasional international fixtures.",
         },
         {
             lat: 51.49089,
@@ -30,6 +31,7 @@
             club: "Brentford",
             logo: "assets/images/stadiums/brentford-crest.jpg",
             image: "assets/images/stadiums/brentford-stadium.jpg",
+            info: "Located in West London, this is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium."
         },
         {
             lat: 51.48177,
@@ -124,10 +126,8 @@
                     document.getElementById("card-title").textContent = stadiums[i].club;
                     document.getElementById("crest-card").innerHTML = `<img class="card-img-top mt-5" src="${stadiums[i].logo}" alt="${stadiums[i].club} logo">`;
                     document.getElementById("card-front").innerHTML =  `<h3 class="mt-2">${stadiums[i].name}</h3>
-                    <img class="card-img-top" src="${stadiums[i].image}" alt="Aerial view of Wembley Stadium">
-                    <p>Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. 
-                        It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020.
-                    </p>`;
+                    <img class="card-img-top" src="${stadiums[i].image}" alt="Aerial view of ${stadiums[i].name}">
+                    <p>${stadiums[i].info}</p>`;
                 };
             })(i)
         );
