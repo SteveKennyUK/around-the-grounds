@@ -21,6 +21,7 @@
             name: "Emirates Stadium",
             club: "Arsenal",
             logo: "assets/images/stadiums/arsenal-crest.jpg",
+            image: "assets/images/stadiums/emirates-stadium.jpg",
         },
         {
             lat: 51.49089,
@@ -28,6 +29,7 @@
             name: "Brentford Community Stadium",
             club: "Brentford",
             logo: "assets/images/stadiums/brentford-crest.jpg",
+            image: "assets/images/stadiums/brentford-stadium.jpg",
         },
         {
             lat: 51.48177,
@@ -35,6 +37,7 @@
             name: "Stamford Bridge",
             club: "Chelsea",
             logo: "assets/images/stadiums/chelsea-crest.jpg",
+            image: "assets/images/stadiums/chelsea-stadium.jpg",
         },
         {
             lat: 51.39854,
@@ -42,6 +45,7 @@
             name: "Selhurst Park",
             club: "Crystal Palace",
             logo: "assets/images/stadiums/palace-crest.jpg",
+            image: "assets/images/stadiums/selhurst-park.jpg",
         },
         {
             lat: 51.60431,
@@ -49,6 +53,7 @@
             name: "Tottenham Hotspur Stadium",
             club: "Tottenham Hotspur",
             logo: "assets/images/stadiums/spurs-crest.jpg",
+            image: "assets/images/stadiums/th-stadium.jpg",
         },
         {
             lat: 51.65003,
@@ -56,6 +61,7 @@
             name: "Vicarage Road",
             club: "Watford",
             logo: "assets/images/stadiums/watford-crest.jpg",
+            image: "assets/images/stadiums/vicarage-road.jpg",
         },
         {
             lat: 51.53892,
@@ -63,6 +69,7 @@
             name: "London Stadium",
             club: "West Ham United",
             logo: "assets/images/stadiums/west-ham-crest.jpg",
+            image: "assets/images/stadiums/london-stadium.jpg",
         },
         {
             lat: 51.55621,
@@ -70,6 +77,7 @@
             name: "Wembley Stadium",
             club: "National Stadium",
             logo: "assets/images/stadiums/wembley-logo.png",
+            image: "assets/images/stadiums/wembley-stadium.jpg",
         },
     ];
 
@@ -115,6 +123,11 @@
                 return function () {
                     document.getElementById("card-title").textContent = stadiums[i].club;
                     document.getElementById("crest-card").innerHTML = `<img class="card-img-top mt-5" src="${stadiums[i].logo}" alt="${stadiums[i].club} logo">`;
+                    document.getElementById("card-front").innerHTML =  `<h3 class="mt-2">${stadiums[i].name}</h3>
+                    <img class="card-img-top" src="${stadiums[i].image}" alt="Aerial view of Wembley Stadium">
+                    <p>Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. 
+                        It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020.
+                    </p>`;
                 };
             })(i)
         );
