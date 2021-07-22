@@ -31,7 +31,7 @@
             club: "Brentford",
             logo: "assets/images/stadiums/brentford-crest.jpg",
             image: "assets/images/stadiums/brentford-stadium.jpg",
-            info: "Located in West London, this is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium."
+            info: "Located in West London, Brentford Community Stadium is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium."
         },
         {
             lat: 51.48177,
@@ -40,6 +40,7 @@
             club: "Chelsea",
             logo: "assets/images/stadiums/chelsea-crest.jpg",
             image: "assets/images/stadiums/chelsea-stadium.jpg",
+            info: "Located in an affluent area of South West London, Stamford Bridge is the home ground for Chelsea, the current Champions League holders. There are plans in place for a full redevelopment of the stadium in time for the 2021-22 season.",
         },
         {
             lat: 51.39854,
@@ -48,6 +49,7 @@
             club: "Crystal Palace",
             logo: "assets/images/stadiums/palace-crest.jpg",
             image: "assets/images/stadiums/selhurst-park.jpg",
+            info: "The home of Crystal Palace, Selhurst Park is situated in South London. A mixture of old and new, the ground has traditional character. The club has announced plans to build a bigger, more modern main stand.",
         },
         {
             lat: 51.60431,
@@ -56,6 +58,7 @@
             club: "Tottenham Hotspur",
             logo: "assets/images/stadiums/spurs-crest.jpg",
             image: "assets/images/stadiums/th-stadium.jpg",
+            info: "Heralded as one of the finest stadiums in the world, this throughly modern stadium is home to Tottenham Hotspur. The retractable pitch has a synthetic NFL pitch underneath, allowing hosting of regular NFL games.",
         },
         {
             lat: 51.65003,
@@ -64,6 +67,7 @@
             club: "Watford",
             logo: "assets/images/stadiums/watford-crest.jpg",
             image: "assets/images/stadiums/vicarage-road.jpg",
+            info: "On the outskirts of North West London, Vicarage Road is home to Watford F.C. The traditional ground has been improved with the addition of the Sir Elton John Stand, named after the singer with a deep-rooted connection with the club.",
         },
         {
             lat: 51.53892,
@@ -72,6 +76,7 @@
             club: "West Ham United",
             logo: "assets/images/stadiums/west-ham-crest.jpg",
             image: "assets/images/stadiums/london-stadium.jpg",
+            info: "Originally built in Stratford as the centrepiece stadium for the 2012 London Olympics, the stadium became the home of West Ham United in 2016. The stadium also continues to host athletics events as well as music concerts.",
         },
         {
             lat: 51.55621,
@@ -80,6 +85,7 @@
             club: "National Stadium",
             logo: "assets/images/stadiums/wembley-logo.png",
             image: "assets/images/stadiums/wembley-stadium.jpg",
+            info: "Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020."
         },
     ];
 
