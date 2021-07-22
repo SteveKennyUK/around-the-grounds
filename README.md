@@ -220,7 +220,10 @@ The layout and content of the site has been designed with the User Experience at
 	- Colours will be checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines.
 
 	 - **Additional colours**    
-    [#ff6161](https://icolorpalette.com/color/ff6161) - it was decided that the background colour of each card should be synonymous with the stadium/football club. This shade of red was chosen after checking the contrast with black text through WebAIM.
+    It was decided that the background colour of each card should be synonymous with the stadium/football club. The following shades were chosen after checking background and foreground colours with WebAIM.
+		- [#ff6161](https://icolorpalette.com/color/ff6161) - light red shade.
+		- [#7f1734](https://icolorpalette.com/color/7f1734) - claret
+		- [104e75](https://icolorpalette.com/color/104e75) - blue shade
 
 -  #### Typography
 
