@@ -23,6 +23,12 @@
             logo: "assets/images/stadiums/arsenal-crest.jpg",
             image: "assets/images/stadiums/emirates-stadium.jpg",
             info: "Located in Islington, the Emirates Stadium is home to Arsenal F.C. and was built to replace their previous Highbury stadium. It also hosts music concerts and occasional international fixtures.",
+            capacity: "60,361",
+            year: "2006",
+            address: "Emirates Stadium, Hornsey Road, London N7 7AJ",
+            station: "Drayton Park",
+            ticket: "020 7619 5000",
+            website: "https://www.arsenal.com/the-club/emirates-stadium",
         },
         {
             lat: 51.49089,
@@ -31,7 +37,8 @@
             club: "Brentford",
             logo: "assets/images/stadiums/brentford-crest.jpg",
             image: "assets/images/stadiums/brentford-stadium.jpg",
-            info: "Located in West London, Brentford Community Stadium is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium."
+            info:
+                "Located in West London, Brentford Community Stadium is the most recent addition to London's stadiums. Replacing Brentford's Griffin Park, the team was promoted to the Premier League in the first season at the new stadium.",
         },
         {
             lat: 51.48177,
@@ -40,7 +47,8 @@
             club: "Chelsea",
             logo: "assets/images/stadiums/chelsea-crest.jpg",
             image: "assets/images/stadiums/chelsea-stadium.jpg",
-            info: "Located in an affluent area of South West London, Stamford Bridge is the home ground for Chelsea, the current Champions League holders. There are plans in place for a full redevelopment of the stadium in time for the 2021-22 season.",
+            info:
+                "Located in an affluent area of South West London, Stamford Bridge is the home ground for Chelsea, the current Champions League holders. There are plans in place for a full redevelopment of the stadium in time for the 2021-22 season.",
         },
         {
             lat: 51.39854,
@@ -67,7 +75,8 @@
             club: "Watford",
             logo: "assets/images/stadiums/watford-crest.jpg",
             image: "assets/images/stadiums/vicarage-road.jpg",
-            info: "On the outskirts of North West London, Vicarage Road is home to Watford F.C. The traditional ground has been improved with the addition of the Sir Elton John Stand, named after the singer with a deep-rooted connection with the club.",
+            info:
+                "On the outskirts of North West London, Vicarage Road is home to Watford F.C. The traditional ground has been improved with the addition of the Sir Elton John Stand, named after the singer with a deep-rooted connection with the club.",
         },
         {
             lat: 51.53892,
@@ -76,7 +85,8 @@
             club: "West Ham United",
             logo: "assets/images/stadiums/west-ham-crest.jpg",
             image: "assets/images/stadiums/london-stadium.jpg",
-            info: "Originally built in Stratford as the centrepiece stadium for the 2012 London Olympics, the stadium became the home of West Ham United in 2016. The stadium also continues to host athletics events as well as music concerts.",
+            info:
+                "Originally built in Stratford as the centrepiece stadium for the 2012 London Olympics, the stadium became the home of West Ham United in 2016. The stadium also continues to host athletics events as well as music concerts.",
         },
         {
             lat: 51.55621,
@@ -85,7 +95,8 @@
             club: "National Stadium",
             logo: "assets/images/stadiums/wembley-logo.png",
             image: "assets/images/stadiums/wembley-stadium.jpg",
-            info: "Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020."
+            info:
+                "Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020.",
         },
     ];
 
@@ -101,7 +112,7 @@
         // 1) Create empty array to store information for windows
         var infoObj = [];
         // 2) Create content for each window
-        let markerContent = `<h3 class="text-center">` + stadiums[i].name + `</h3>` +  `<p class="text-center"><strong> Home of ` + stadiums[i].club + `</strong></p>`;
+        let markerContent = `<h3 class="text-center">` + stadiums[i].name + `</h3>` + `<p class="text-center"><strong> Home of ` + stadiums[i].club + `</strong></p>`;
         // 3) Set up the information windows, adding the content and width
         const infoWindow = new google.maps.InfoWindow({
             content: markerContent,
@@ -131,9 +142,17 @@
                 return function () {
                     document.getElementById("card-title").textContent = stadiums[i].club;
                     document.getElementById("crest-card").innerHTML = `<img class="card-img-top mt-5" src="${stadiums[i].logo}" alt="${stadiums[i].club} logo">`;
-                    document.getElementById("card-front").innerHTML =  `<h3 class="mt-2">${stadiums[i].name}</h3>
+                    document.getElementById("card-front").innerHTML = `<h3 class="mt-2">${stadiums[i].name}</h3>
                     <img class="card-img-top" src="${stadiums[i].image}" alt="Aerial view of ${stadiums[i].name}">
                     <p>${stadiums[i].info}</p>`;
+                    document.getElementById("card-back").innerHTML = `
+                    <li class="list-group-item"><i class="fas fa-users" aria-hidden="true"></i><strong> Capacity: </strong><br> ${stadiums[i].capacity} </li>
+                    <li class="list-group-item"><i class="far fa-calendar-alt" aria-hidden="true"></i><strong> Year Opened: </strong><br> ${stadiums[i].year} </li>
+                    <li class="list-group-item"><i class="fas fa-home" aria-hidden="true"></i><strong> Address: </strong><br> ${stadiums[i].address}</li>
+                    <li class="list-group-item"><i class="fas fa-train" aria-hidden="true"></i><strong> Nearest Station: </strong><br> ${stadiums[i].station}</li>
+                    <li class="list-group-item"><i class="fas fa-ticket-alt" aria-hidden="true"></i><strong> Ticket Office: </strong><br> ${stadiums[i].ticket}</li>
+                    <li class="list-group-item"><i class="fas fa-laptop" aria-hidden="true"></i><a href="${stadiums[i].website}" target="_blank" rel="noopener" aria-label="${stadiums[i].club} home page (link opens in a new tab)"><strong> Website</strong></a></li>
+                    `;
                 };
             })(i)
         );
