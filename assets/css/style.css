@@ -45,11 +45,11 @@ p {
 }
 
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 /*--- navbar links ---*/
 .navbar-nav {
-    margin-right: 150px;
+    margin-right: 1rem;
     font-size: 2rem;
 }
 
@@ -76,20 +76,6 @@ p {
     position: relative;
     border-radius: 0.75rem;
 }
-
-@media only screen and (min-width: 767px) and (max-width: 991px) {
-    .stadiums-container {
-        height: 1000px;
-    }
-}
-
-@media only screen and (min-width: 991.05px) {
-    .stadiums-container {
-        background: url(../images/football-pitch.jpg) center/cover no-repeat fixed;
-    height: 100%;
-    }
-}
-
     /*================================== Map ==================================*/
 #map {
     height: 450px;
@@ -201,4 +187,32 @@ p {
 .list-group-item {
     border: none;
     font-size: 1.4rem;
+}
+/*================================== Media Queries ==================================*/
+    /* Stadiums section - make more responsive on larger screen sizes */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .stadiums-container {
+        height: 1000px;
+    }
+}
+
+@media only screen and (min-width: 991.05px) {
+    .stadiums-container {
+        background: url(../images/football-pitch.jpg) center/cover no-repeat fixed;
+    height: 100%;
+    width: 90vw;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .stadiums-container {
+    height: 55vh;
+    }
+    #map {
+        height: 750px;        
+    }
+    .card-container,
+    .crest-card {
+        height: 625px;
+    }
 }
