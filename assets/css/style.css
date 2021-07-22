@@ -25,17 +25,38 @@ p {
     padding: 1rem;
 }
 /*================================== Colours ==================================*/
-.card-back p {
+.card-back p,
+#card-title {
     color: #fffbfe;
 }
+/*================================== Stadiums section ==================================*/
+.stadiums-container {
+    background: url(../images/football-pitch-vert.jpg) center/cover no-repeat fixed;
+    height: 1400px;
+    background-color: #000;
+    position: relative;
+}
 
-/*================================== Map ==================================*/
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .stadiums-container {
+        height: 1000px;
+    }
+}
+
+@media only screen and (min-width: 991.05px) {
+    .stadiums-container {
+        background: url(../images/football-pitch.jpg) center/cover no-repeat fixed;
+    height: 100%;
+    }
+}
+
+    /*================================== Map ==================================*/
 #map {
     height: 450px;
     width: 100%;
 }
 
-/*================================== Cards ==================================*/
+    /*================================== Cards ==================================*/
 .card-wrapper {
     height: 500px;
 }
