@@ -125,9 +125,44 @@
         <section class="contact" id="contact">
             <div class="row">
                 <div class="col-12 contact-text">
+                    <h2 id="contact-us">Contact and Tours</h2>
+                        <p>
+                            If you would like further information on any of the featured stadiums or 
+                            would like us to arrange a stadium tour for you, please fill in the form below.
+                        </p>
                     <div class="col-12 contact-form">
                         <form method="POST" action="https://formdump.codeinstitute.net">
-                            
+                            <fieldset>
+                                <legend>About you</legend>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <label for="first-name">Name*</label>
+                                        <input id="first-name" name="first-name" class="form-control" type="text" placeholder="First Name" required />
+                                    </div>
+                                    <div class="col">
+                                        <label for="last-name"> &nbsp;</label>
+                                        <input id="last-name" name="last-name" class="form-control" type="text" placeholder="Last Name" required />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="email-address">Email*</label>
+                                    <input id="email-address" name="email-address" class="form-control" type="email" placeholder="e.g. H.Kane@gmail.com" required />
+                                </div>
+                            </fieldset>
+                            <br>
+                            <br>
+                            <label for="tours">Stadium Tours</label>
+                            <select class="custom-select" id="tours">
+                                <option selected>Which stadium/tour are you interested in?</option>
+                                <option value="brentford">Brentford Community Stadium</option>
+                                <option value="emirates">Emirates Stadium</option>
+                                <option value="london">London Stadium</option>
+                                <option value="selhurst">Selhurst Park</option>
+                                <option value="stamford">Stamford Bridge</option>
+                                <option value="tottenham">Tottenham Hotspur Stadium</option>
+                                <option value="vicarage">Vicarage Road</option>
+                                <option value="wembley">Wembley Stadium</option>
+                              </select>
                         </form>
                     </div>
                 </div>
