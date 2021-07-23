@@ -149,9 +149,8 @@
                                     <input id="email-address" name="email-address" class="form-control" type="email" placeholder="e.g. H.Kane@gmail.com" required />
                                 </div>
                             </fieldset>
-                            <br>
-                            <br>
-                            <label for="tours">Stadium Tours</label>
+  
+                            <label for="tours" class="pt-3">Stadium Tours</label>
                             <select class="custom-select" id="tours">
                                 <option selected>Which stadium/tour are you interested in?</option>
                                 <option value="brentford">Brentford Community Stadium</option>
@@ -163,6 +162,13 @@
                                 <option value="vicarage">Vicarage Road</option>
                                 <option value="wembley">Wembley Stadium</option>
                               </select>
+                              <fieldset>
+                                <legend class="pt-3">Message:</legend>
+                                <div class="form-group">
+                                    <label for="message"> <span class="sr-only">message</span> </label>
+                                    <textarea placeholder="Desired tour dates, accessibility requirements etc. " class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
+                                </div>
+                            </fieldset>
                         </form>
                     </div>
                 </div>
