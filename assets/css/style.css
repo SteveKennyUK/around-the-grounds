@@ -187,9 +187,12 @@ p {
     border: none;
     font-size: 1.4rem;
 }
-/*================================== Stadiums section ==================================*/
-.contact-section {
+/*================================== Contact section ==================================*/
+.contact-container {
+    background: url(../images/hero-image-contact.jpg) bottom/cover no-repeat;
     height: 100vh;
+    background-color: #000;
+    position: relative;
 }
 
 
