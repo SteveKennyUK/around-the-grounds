@@ -182,7 +182,7 @@ legend {
 /*================================== Contact section ==================================*/
 .contact-container {
     background: url(../images/hero-image-contact.jpg) bottom/cover no-repeat;
-    height: 110vh;
+    height: 100%;
     background-color: #000;
     position: relative;
 }
@@ -191,6 +191,15 @@ legend {
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
+}
+
+.btn-cta {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 2rem;
 }
 /*================================== Media Queries ==================================*/
 /* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */
