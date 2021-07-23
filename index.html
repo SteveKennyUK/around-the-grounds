@@ -24,13 +24,11 @@
         />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <!-- EmailJS script -->
-        <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-        </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         <script type="text/javascript">
-        (function(){
-            emailjs.init("user_o09G9wcOUufIvMTrZgEDy");
-        })();
+            (function () {
+                emailjs.init("user_o09G9wcOUufIvMTrZgEDy");
+            })();
         </script>
         <title>Around The Grounds</title>
     </head>
@@ -178,8 +176,8 @@
 
                             <label for="tours" class="pt-3">Stadium Tours</label>
                             <select class="custom-select" id="tours" name="tours">
-                                <option selected>Which stadium/tour are you interested in?</option>
-                                <option value="Brentford">Brentford Community Stadium</option>
+                                <option required>Which stadium/tour are you interested in?</option>
+                                <option value="Brentford" required>Brentford Community Stadium</option>
                                 <option value="Emirates">Emirates Stadium</option>
                                 <option value="London">London Stadium</option>
                                 <option value="Selhurst">Selhurst Park</option>
@@ -192,13 +190,36 @@
                                 <legend class="pt-3">Message:</legend>
                                 <div class="form-group">
                                     <label for="message"> <span class="sr-only">message</span> </label>
-                                    <textarea placeholder="Desired tour dates, accessibility requirements etc. " class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
+                                    <textarea placeholder="Desired tour dates, accessibility requirements etc. " class="form-control" name="message" id="message" cols="30" rows="10" required></textarea>
                                 </div>
                             </fieldset>
                             <div class="text-center pb-3">
-                                <input type="submit" value="Send" class="btn-cta hvr-grow-shadow" id="button">
+                                <input type="submit" value="Send" class="btn-cta hvr-grow-shadow" id="button" />
                             </div>
                         </form>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#email-success">
+                    <strong>TEST</strong>
+                </button>
+
+                <div class="modal fade" id="email-success" tabindex="-1" role="dialog" aria-labelledby="email sent successfully" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Message Sent!</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-center">
+                                    Thank you for your message.<br />
+                                    We will be in contact with you as soon as possible.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary text-center" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

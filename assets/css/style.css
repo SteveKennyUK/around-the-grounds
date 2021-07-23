@@ -224,6 +224,17 @@ form input[type="email"]:focus,
     border: 5px solid #7aac2b;
 }
 
+.modal-title,
+.modal-footer button {
+    margin: 0 auto;
+}
+
+.btn-secondary {
+    height: 40px;
+    width: 60px;
+    font-size: 1.5rem;
+}
+
 /*================================== Media Queries ==================================*/
 /* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */
 @media only screen and (min-width: 767px) {
