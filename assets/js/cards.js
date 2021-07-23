@@ -1,3 +1,4 @@
+/* jshint esversion: 6, jquery: true */
 // Add Event Listener to second card so it flips when clicked
 const card = document.getElementById("flip-card");
 
