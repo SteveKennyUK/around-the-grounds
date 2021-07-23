@@ -23,6 +23,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <!-- EmailJS script -->
         <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
         </script>
@@ -156,7 +157,7 @@
                         </p>
                     </div>
                     <div class="col-12 contact-form">
-                        <form method="POST" action="https://formdump.codeinstitute.net">
+                        <form method="POST" action="https://formdump.codeinstitute.net" id="form">
                             <fieldset>
                                 <legend>About you</legend>
                                 <div class="row mb-3">
@@ -178,14 +179,14 @@
                             <label for="tours" class="pt-3">Stadium Tours</label>
                             <select class="custom-select" id="tours" name="tours">
                                 <option selected>Which stadium/tour are you interested in?</option>
-                                <option value="brentford">Brentford Community Stadium</option>
-                                <option value="emirates">Emirates Stadium</option>
-                                <option value="london">London Stadium</option>
-                                <option value="selhurst">Selhurst Park</option>
-                                <option value="stamford">Stamford Bridge</option>
-                                <option value="tottenham">Tottenham Hotspur Stadium</option>
-                                <option value="vicarage">Vicarage Road</option>
-                                <option value="wembley">Wembley Stadium</option>
+                                <option value="Brentford">Brentford Community Stadium</option>
+                                <option value="Emirates">Emirates Stadium</option>
+                                <option value="London">London Stadium</option>
+                                <option value="Selhurst">Selhurst Park</option>
+                                <option value="Stamford">Stamford Bridge</option>
+                                <option value="Tottenham">Tottenham Hotspur Stadium</option>
+                                <option value="Vicarage">Vicarage Road</option>
+                                <option value="Wembley">Wembley Stadium</option>
                             </select>
                             <fieldset>
                                 <legend class="pt-3">Message:</legend>
@@ -195,7 +196,7 @@
                                 </div>
                             </fieldset>
                             <div class="text-center pb-3">
-                                <input type="submit" value="Send" class="btn-cta btn- hvr-grow-shadow" />
+                                <input type="submit" value="Send" class="btn-cta hvr-grow-shadow" id="button">
                             </div>
                         </form>
                     </div>

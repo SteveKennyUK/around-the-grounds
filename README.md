@@ -349,6 +349,8 @@ The layout and content of the site has been designed with the User Experience at
 1. [Google Maps JavaScriptAPI](https://developers.google.com/maps/documentation/javascript/overview) was used to create  the map element and its interactive components.
 
 1. [Github Projects Board](https://github.com/SteveKennyUK/around-the-grounds/projects/1) used to plan and follow project progress.
+
+1. [EmailJS](https://www.emailjs.com/) used to create email service.
 ## Testing
 ---
 Testing details can be found [here](TESTING.md).
