@@ -21,7 +21,7 @@ body {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 p {
@@ -32,6 +32,10 @@ p {
 .navbar-brand,
 legend {
     font-size: 2.1rem;
+}
+
+.contact-text p {
+    font-size: 1.8rem;
 }
 /*================================== Colours ==================================*/
 .card-back p,
@@ -85,7 +89,7 @@ legend {
 }
 /*================================== Map ==================================*/
 #map {
-    height: 450px;
+    height: 475px;
     width: 100%;
 }
 /*================================== Cards ==================================*/
@@ -133,6 +137,11 @@ legend {
 
 .card-back ul {
     text-align: left;
+}
+#card-title {
+    background-color: #000;
+    width: 80%;
+    margin: 0 auto;
 }
 /* Background colours for front flip card; change when marker is clicked */
 .card-front-red {
@@ -230,6 +239,10 @@ form input[type="email"]:focus,
         width: 100%;
         border-radius: 50%;
         background-color: #000;
+    }
+    /* Stadiums section - reduce black background on <h2> title for tablet size and above */
+    #card-title {
+        width: 50%;
     }
     /* Contact section - increase input box sizes/reduce form width on tablet size and above */
     form input[type="text"],
