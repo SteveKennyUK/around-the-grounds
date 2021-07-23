@@ -28,9 +28,16 @@ p {
     font-size: 1.4rem;
     padding: 1rem;
 }
+
+.navbar-brand,
+legend {
+    font-size: 2.1rem;
+}
 /*================================== Colours ==================================*/
 .card-back p,
-#card-title {
+#card-title,
+.contact-text,
+legend {
     color: #fffbfe;
 }
 
@@ -45,13 +52,8 @@ p {
     border-style: solid;
     border-color: #f5f5f5;
     border-width: 1px;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
-
-.navbar-brand {
-    font-size: 2.1rem;
-}
-
 /*--- navbar links ---*/
 .navbar-nav {
     margin-right: 1rem;
@@ -81,12 +83,12 @@ p {
     position: relative;
     border-radius: 0.75rem;
 }
-    /*================================== Map ==================================*/
+/*================================== Map ==================================*/
 #map {
     height: 450px;
     width: 100%;
 }
-    /*================================== Cards ==================================*/
+/*================================== Cards ==================================*/
 .card-wrapper {
     height: 500px;
 }
@@ -103,7 +105,7 @@ p {
     height: 400px;
     border-radius: 0.5rem;
     -webkit-box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
-            box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
 }
 
 .flip-card {
@@ -111,7 +113,7 @@ p {
     width: 100%;
     height: 100%;
     -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
+    transform-style: preserve-3d;
     -webkit-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
@@ -122,36 +124,26 @@ p {
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
     text-align: center;
     border-radius: 0.5rem;
     -webkit-box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
-            box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
 }
 
 .card-back ul {
     text-align: left;
 }
-    /* Background colours for front flip card; change when marker is clicked */
+/* Background colours for front flip card; change when marker is clicked */
 .card-front-red {
     background: #ff6161;
     color: #000;
 }
 
 .card-front-stripe {
-    background: -o-repeating-linear-gradient(
-  45deg,
-  #104e75,
-  #7f1734 50px,
-  #104e75 30px
-);
-    background: repeating-linear-gradient(
-  45deg,
-  #104e75,
-  #7f1734 50px,
-  #104e75 30px
-);
-   color: #fffbfe;
+    background: -o-repeating-linear-gradient(45deg, #104e75, #7f1734 50px, #104e75 30px);
+    background: repeating-linear-gradient(45deg, #104e75, #7f1734 50px, #104e75 30px);
+    color: #fffbfe;
 }
 
 .card-front-blue {
@@ -168,19 +160,19 @@ p {
     background: #6a4c93;
     color: #000;
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .flipCard {
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 #flip-icon {
     position: absolute;
     left: 1px;
     bottom: -2.5px;
-    width: 25%;   
+    width: 25%;
 }
 
 .list-group-item {
@@ -190,31 +182,51 @@ p {
 /*================================== Contact section ==================================*/
 .contact-container {
     background: url(../images/hero-image-contact.jpg) bottom/cover no-repeat;
-    height: 100vh;
+    height: 110vh;
     background-color: #000;
     position: relative;
 }
 
+.contact-form {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
 /*================================== Media Queries ==================================*/
-    /* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */  
+/* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */
 @media only screen and (min-width: 767px) {
-    .navbar-dark .navbar-nav .active {    
+    .navbar-dark .navbar-nav .active {
         font-weight: 700;
         border-style: solid;
         border-width: 0 0 5px 0;
         border-color: #fff;
-    } 
-    
+    }
+
     .navbar-nav .nav-item:hover {
         border: 1px solid #000;
         height: 100%;
         width: 100%;
         border-radius: 50%;
-        background-color: #000;    
+        background-color: #000;
+    }
+    /* Contact section - increase input box sizes/reduce form width on tablet size and above */
+    form input[type="text"],
+    form input[type="email"],
+    .custom-select {
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .form-group textarea {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        max-width: 60%;
     }
 }
 
-    /* Stadiums section - make more responsive on larger screen sizes */
+/* Stadiums section - make more responsive on larger screen sizes */
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     .stadiums-container {
         height: 1000px;
@@ -224,17 +236,17 @@ p {
 @media only screen and (min-width: 991.05px) {
     .stadiums-container {
         background: url(../images/football-pitch.jpg) center/cover no-repeat fixed;
-    height: 100%;
-    width: 90vw;
+        height: 100%;
+        width: 90vw;
     }
 }
 
 @media only screen and (min-width: 1441px) {
     .stadiums-container {
-    height: 55vh;
+        height: 55vh;
     }
     #map {
-        height: 750px;        
+        height: 750px;
     }
     .card-container,
     .crest-card {

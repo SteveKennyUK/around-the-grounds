@@ -1,135 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Interactive guide to English Premier League football stadiums" />
-    <meta name="keywords" content="EPL, English Premier League, stadiums, stadia, football grounds, stadium tours" />
-    <meta name="author" content="Steven Kenny" />
-    <!-- Bootstrap link tag -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
-    <!-- Favicon link tags -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
-    <script src="https://kit.fontawesome.com/41e7f870c2.js" crossorigin="anonymous"></script>
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-        integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-        crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Around The Grounds</title>
-</head>
-<body>
-    <header class = "container-fluid p-0">
-    <!-- Navbar -->
-        <!-- Credit : navbar built using Bootstrap Navbar as template then customised with own styling. 
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Interactive guide to English Premier League football stadiums" />
+        <meta name="keywords" content="EPL, English Premier League, stadiums, stadia, football grounds, stadium tours" />
+        <meta name="author" content="Steven Kenny" />
+        <!-- Bootstrap link tag -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+        <!-- Favicon link tags -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+        <script src="https://kit.fontawesome.com/41e7f870c2.js" crossorigin="anonymous"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+            integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Around The Grounds</title>
+    </head>
+    <body>
+        <header class="container-fluid p-0">
+            <!-- Navbar -->
+            <!-- Credit : navbar built using Bootstrap Navbar as template then customised with own styling. 
              Credit for hover effects: https://ianlunn.github.io/Hover/ -->
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <!-- Navbar logo  -->
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" alt="Around The Grounds logo" />&nbsp; &nbsp; Around The Grounds</a>
-            <!-- Toggle menu -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Navigation links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-bounce-in" href="#stadiums">Stadiums</a>
-                    </li>                    
-                    <li class="nav-item">
-                        <a class="nav-link hvr-bounce-in" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <!-- Navbar logo  -->
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" alt="Around The Grounds logo" />&nbsp; &nbsp; Around The Grounds</a>
+                <!-- Toggle menu -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navigation links -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-bounce-in" href="#stadiums">Stadiums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-bounce-in" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- /Navbar -->
+        </header>
+        <!-- Hero image -->
+        <section role="banner" aria-label="Hero Image">
+            <div class="container-fluid hero-container"></div>
+        </section>
+        <!-- /Hero image -->
+        <!-- Stadiums section -->
+        <div class="container-fluid">
+            <div class="container-fluid stadiums-container mt-3">
+                <section class="stadiums" id="stadiums">
+                    <div class="row">
+                        <!-- Map -->
+                        <div class="col-12 col-lg-4 mt-4">
+                            <div id="map"></div>
+                        </div>
+                        <!-- Cards -->
+                        <div class="col-12 col-lg-8 card-wrapper">
+                            <div class="row justify-content-around">
+                                <div class="col-12">
+                                    <h2 class="text-center mt-4" id="card-title">National Stadium</h2>
+                                </div>
+                                <!-- HTML code and placeholder image for first card -->
+                                <div class="col-12 col-md-5 card-container">
+                                    <div class="card crest-card" id="crest-card">
+                                        <img class="card-img-top mt-5" src="assets/images/stadiums/wembley-logo.png" alt="Wembley Stadium logo" />
+                                    </div>
+                                </div>
+                                <!-- HTML code and placeholder content for flip card -->
+                                <div class="col-12 col-md-5 card-container">
+                                    <div class="flip-card" id="flip-card">
+                                        <!-- Front of card -->
+                                        <div class="card-front card-front-red" id="front-col">
+                                            <span id="card-front">
+                                                <h3 class="mt-2">Wembley Stadium</h3>
+                                                <img class="card-img-top" src="assets/images/stadiums/wembley-stadium.jpg" alt="Aerial view of Wembley Stadium" />
+                                                <p>
+                                                    Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most
+                                                    recently the semi-finals and final of Euro 2020.
+                                                </p>
+                                            </span>
+                                            <img src="assets/images/flip-icon.jpg" alt="flip icon" id="flip-icon" aria-hidden="true" />
+                                            <p><strong>Click for stadium details</strong></p>
+                                        </div>
+                                        <!-- Back of card -->
+                                        <div class="card-back">
+                                            <p>Stadium Information</p>
+                                            <ul class="list-group list-group-flush" id="card-back">
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-users" aria-hidden="true"></i><strong> Capacity: </strong><br />
+                                                    90,000
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="far fa-calendar-alt" aria-hidden="true"></i><strong> Year Opened: </strong><br />
+                                                    2007
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-home" aria-hidden="true"></i><strong> Address: </strong><br />
+                                                    Wembley Stadium, London HA9 0WS
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-train" aria-hidden="true"></i><strong> Nearest Station: </strong><br />
+                                                    Wembley Stadium/Wembley Park
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-ticket-alt" aria-hidden="true"></i><strong> Ticket Office: </strong><br />
+                                                    0800 169 2007
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-laptop" aria-hidden="true"></i>
+                                                    <a href="https://www.wembleystadium.com/" target="_blank" rel="noopener" aria-label="Wembley Stadium home page (link opens in a new tab)"><strong> Website</strong></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </nav>
-    <!-- /Navbar -->
-    </header>
-    <!-- Hero image -->
-    <section role="banner" aria-label="Hero Image">
-        <div class="container-fluid hero-container">
-
         </div>
-    </section>
-    <!-- /Hero image -->
-    <!-- Stadiums section --> 
-    <div class="container-fluid">
-        <div class="container-fluid stadiums-container mt-3">
-            <section class="stadiums" id="stadiums">
+        <!-- /Stadiums section -->
+        <!-- Contact section -->
+        <!-- Credit: Bootstrap classes used to assist contact form responsiveness -->
+        <div class="container-fluid contact-container mt-3">
+            <section class="contact contact-section" id="contact">
                 <div class="row">
-                    <!-- Map -->
-                    <div class="col-12 col-lg-4 mt-4">
-                        <div id="map">
-                        </div>
-                    </div>
-                    <!-- Cards -->
-                    <div class="col-12 col-lg-8 card-wrapper">
-                        <div class="row justify-content-around"> 
-                        <div class="col-12">
-                            <h2 class="text-center mt-4" id="card-title">National Stadium</h2>
-                        </div> 
-                        <!-- HTML code and placeholder image for first card -->
-                        <div class="col-12 col-md-5 card-container">                                                       
-                                <div class="card crest-card" id="crest-card">
-                                    <img class="card-img-top mt-5" src="assets/images/stadiums/wembley-logo.png" alt="Wembley Stadium logo">
-                                </div>                          
-                        </div>
-                        <!-- HTML code and placeholder content for flip card -->
-                        <div class="col-12 col-md-5 card-container">                            
-                            <div class="flip-card" id="flip-card">
-                                <!-- Front of card -->
-                                <div class="card-front card-front-red" id="front-col">
-                                    <span id="card-front">
-                                        <h3 class="mt-2">Wembley Stadium</h3>
-                                        <img class="card-img-top" src="assets/images/stadiums/wembley-stadium.jpg" alt="Aerial view of Wembley Stadium">
-                                        <p>Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. 
-                                            It also hosts English domestic cup finals and most recently the semi-finals and final of Euro 2020.
-                                        </p>
-                                    </span>
-                                    <img src="assets/images/flip-icon.jpg" alt="flip icon" id="flip-icon" aria-hidden="true">                                  
-                                    <p><strong>Click for stadium details</strong></p>
-                                </div>
-                                <!-- Back of card -->
-                                <div class="card-back">
-                                    <p>Stadium Information</p>                                    
-                                    <ul class="list-group list-group-flush" id="card-back">
-                                        <li class="list-group-item"><i class="fas fa-users" aria-hidden="true"></i><strong> Capacity: </strong><br> 90,000 </li>
-                                        <li class="list-group-item"><i class="far fa-calendar-alt" aria-hidden="true"></i><strong> Year Opened: </strong><br> 2007 </li>
-                                        <li class="list-group-item"><i class="fas fa-home" aria-hidden="true"></i><strong> Address: </strong><br> Wembley Stadium, London HA9 0WS</li>
-                                        <li class="list-group-item"><i class="fas fa-train" aria-hidden="true"></i><strong> Nearest Station: </strong><br> Wembley Stadium/Wembley Park</li>
-                                        <li class="list-group-item"><i class="fas fa-ticket-alt" aria-hidden="true"></i><strong> Ticket Office: </strong><br> 0800 169 2007</li>
-                                        <li class="list-group-item"><i class="fas fa-laptop" aria-hidden="true"></i><a href="https://www.wembleystadium.com/" target="_blank" rel="noopener" aria-label="Wembley Stadium home page (link opens in a new tab)"><strong> Website</strong></a></li>
-                                    </ul>                                 
-                                </div>
-                            </div>                      
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- /Stadiums section -->
-    <!-- Contact section -->
-    <div class="container-fluid contact-container mt-3">
-        <section class="contact contact-section" id="contact">
-            <div class="row">
-                <div class="col-12 contact-text">
-                    <h2 id="contact-us">Contact and Tours</h2>
+                    <div class="col-12 contact-text text-center mt-2 pt-4">
+                        <h2 id="contact-us">Contact and Tours</h2>
                         <p>
-                            If you would like further information on any of the featured stadiums or 
-                            would like us to arrange a stadium tour for you, please fill in the form below.
+                            If you would like further information on any of the featured stadiums or would like us to arrange a stadium tour for you, please fill in the form below.
                         </p>
+                    </div>
                     <div class="col-12 contact-form">
                         <form method="POST" action="https://formdump.codeinstitute.net">
                             <fieldset>
@@ -144,12 +161,12 @@
                                         <input id="last-name" name="last-name" class="form-control" type="text" placeholder="Last Name" required />
                                     </div>
                                 </div>
-                                <div>
+                                <div class="input-field">
                                     <label for="email-address">Email*</label>
                                     <input id="email-address" name="email-address" class="form-control" type="email" placeholder="e.g. H.Kane@gmail.com" required />
                                 </div>
                             </fieldset>
-  
+
                             <label for="tours" class="pt-3">Stadium Tours</label>
                             <select class="custom-select" id="tours">
                                 <option selected>Which stadium/tour are you interested in?</option>
@@ -161,33 +178,31 @@
                                 <option value="tottenham">Tottenham Hotspur Stadium</option>
                                 <option value="vicarage">Vicarage Road</option>
                                 <option value="wembley">Wembley Stadium</option>
-                              </select>
-                              <fieldset>
+                            </select>
+                            <fieldset>
                                 <legend class="pt-3">Message:</legend>
                                 <div class="form-group">
                                     <label for="message"> <span class="sr-only">message</span> </label>
                                     <textarea placeholder="Desired tour dates, accessibility requirements etc. " class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
                                 </div>
-                              </fieldset>
-                              <div class="text-center">
+                            </fieldset>
+                            <div class="text-center">
                                 <input type="submit" value="Send" class="btn-cta btn-purple hvr-grow-shadow p-0 mr-2 mb-4" />
                             </div>
                         </form>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
-   <!-- JavaScript -->
-   <!-- Bootstrap script -->
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> 
-   <!-- Google Maps API script -->
-   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_056RXCG-BAcN58URaksq8TBBk4M4s4w&callback=initMap"></script>
-   <script src="assets/js/maps.js"></script>
-   <script src="assets/js/cards.js"></script>
-
-</body>
+            </section>
+        </div>
+        <!-- JavaScript -->
+        <!-- Bootstrap script -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        <!-- Google Maps API script -->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_056RXCG-BAcN58URaksq8TBBk4M4s4w&callback=initMap"></script>
+        <script src="assets/js/maps.js"></script>
+        <script src="assets/js/cards.js"></script>
+    </body>
 </html>
