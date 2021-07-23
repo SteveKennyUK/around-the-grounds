@@ -472,6 +472,9 @@ Images were either created by the developer or sourced from third parties. Pleas
 	- [Club crest images](https://github.com/SteveKennyUK/around-the-grounds/tree/main/assets/images/stadiums) courtesy of [Sports Joe](https://www.sportsjoe.ie/) except [Brentford crest image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/stadiums/brentford-crest.jpg) courtesy of [Brentford F.C.](https://www.brentfordfc.com/).
 
 	- [Flip Card Icon](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/flip-icon.jpg) courtesy of [Free Icons Library](https://icon-library.com/).
+
+- Contact Section
+	- [Background Image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/hero-image-contact.jpg) courtesy of [Wallpaper Safari](https://wallpapersafari.com/w/3AUjzp).
 ### Acknowledgements
 
 ### Notice

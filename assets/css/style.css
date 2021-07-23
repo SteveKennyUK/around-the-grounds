@@ -195,7 +195,6 @@ p {
     position: relative;
 }
 
-
 /*================================== Media Queries ==================================*/
     /* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */  
 @media only screen and (min-width: 767px) {
