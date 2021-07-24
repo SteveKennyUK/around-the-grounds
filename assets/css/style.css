@@ -41,11 +41,13 @@ legend {
 .card-back p,
 #card-title,
 .contact-text,
-legend {
+legend,
+footer {
     color: #fffbfe;
 }
 
-.navbar {
+.navbar,
+footer {
     background-color: #7aac2b;
 }
 /*================================== Navbar ==================================*/
@@ -75,7 +77,7 @@ legend {
 /*================================== Home section ==================================*/
 .hero-container {
     background: url(../images/hero-image-home.jpg) center/cover no-repeat fixed;
-    height: 100vh;
+    height: 90vh;
     background-color: #000;
     position: relative;
 }
@@ -234,7 +236,19 @@ form input[type="email"]:focus,
     width: 60px;
     font-size: 1.5rem;
 }
+/*================================== Footer ==================================*/
+footer {
+    height: 5rem;
+}
 
+.text-icon-links {
+    display: flex;    
+    justify-content: space-around;
+}
+
+.text-icon-links a {
+    font-size: 1.5rem;          
+}
 /*================================== Media Queries ==================================*/
 /* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */
 @media only screen and (min-width: 767px) {
