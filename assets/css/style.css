@@ -386,10 +386,10 @@ footer {
 @media screen and (orientation: landscape) and (max-width: 991px) {
     .hero-container {
         height: 125vh;
-    }  
+    }
     .jumbotron {
         height: 115vh;
-    }  
+    }
     .flip-card,
     .crest-card {
         height: 550px;
