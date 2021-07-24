@@ -38,3 +38,9 @@ Some research on [stack overflow](https://stackoverflow.com/) helped to resolve 
 The 'google' variable used in the Google Maps API functions was flagged as undefined so a `var google;` variable was declared.
 
 One [warning](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/jshint4.JPG) remains - see [Bugs](#bugs). 
+
+---
+## [WAVE](https://wave.webaim.org/)
+The Web Accessibility Evaluation Tool was used to check the accessibility standards of the site. 
+
+The site flagged up a few issues. Most of these were missing labels and colour contrast issues that had been missed during development. These issues were resolved. There is one labelling error and a few contrast issues [here](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/wave.JPG) but these are related to the Google Maps API and cannot be resolved. Otherwise, the site scores well. 
