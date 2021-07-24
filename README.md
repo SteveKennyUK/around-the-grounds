@@ -461,7 +461,7 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 ### Media
 Images were either created by the developer or sourced from third parties. Please see below for third party sources,
 - General
-	- [Favicon image](https://github.com/SteveKennyUK/around-the-grounds/tree/main/assets/images/favicon) by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=157930">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=157930">Pixabay</a>
+	- [Favicon image](https://github.com/SteveKennyUK/around-the-grounds/tree/main/assets/images/favicon)/[Home Page hero image football](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/football.png) by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=157930">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=157930">Pixabay</a>
 
 - Home Section
 
@@ -481,6 +481,10 @@ Images were either created by the developer or sourced from third parties. Pleas
 
 - Contact Section
 	- [Background Image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/hero-image-contact.jpg) courtesy of [Wallpaper Safari](https://wallpapersafari.com/w/3AUjzp).
+
+- 404 Error Page
+	- [Background image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/404-error.jpg) courtesy of [© Ylivdesign | <a href="https://www.stockfreeimages.com/">Stock Free Images</a>](https://www.stockfreeimages.com/23530406/404-error.html#).
+
 ### Acknowledgements
 
 ### Notice
