@@ -198,6 +198,7 @@
             "click",
             (function (i) {
                 return function () {
+                    document.getElementById("flip-card").classList.remove("flipCard");
                     document.getElementById("card-title").textContent = stadiums[i].club;
                     document.getElementById("crest-card").innerHTML = `<img class="card-img-top mt-5" src="${stadiums[i].logo}" alt="${stadiums[i].club} logo">`;
                     document.getElementById("card-front").innerHTML = `<h3 class="mt-2">${stadiums[i].name}</h3>
