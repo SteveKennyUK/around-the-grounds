@@ -50,6 +50,10 @@ footer {
 footer {
     background-color: #7aac2b;
 }
+
+.text-icon-links a:hover {
+    color: #000;
+}
 /*================================== Navbar ==================================*/
 /*--- navbar logo ---*/
 .navbar-brand img {
@@ -247,7 +251,8 @@ footer {
 }
 
 .text-icon-links a {
-    font-size: 1.5rem;          
+    font-size: 1.5rem;  
+    color: #fff;        
 }
 /*================================== Media Queries ==================================*/
 /* Navbar - hover and active stylings for nav links for larger screens but not on hamburger menu */
