@@ -24,8 +24,8 @@
         />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <!-- EmailJS script -->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-        <script type="text/javascript">
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script>
             (function () {
                 emailjs.init("user_o09G9wcOUufIvMTrZgEDy");
             })();
@@ -93,14 +93,14 @@
                                     <div class="flip-card" id="flip-card">
                                         <!-- Front of card -->
                                         <div class="card-front card-front-red" id="front-col">
-                                            <span id="card-front">
+                                            <div id="card-front">
                                                 <h3 class="mt-2">Wembley Stadium</h3>
                                                 <img class="card-img-top" src="assets/images/stadiums/wembley-stadium.jpg" alt="Aerial view of Wembley Stadium" />
                                                 <p>
                                                     Wembley Stadium is, after Camp Nou, the second largest stadium in Europe and the standard playing venue of the English national team. It also hosts English domestic cup finals and most
                                                     recently the semi-finals and final of Euro 2020.
                                                 </p>
-                                            </span>
+                                            </div>
                                             <img src="assets/images/flip-icon.jpg" alt="flip icon" id="flip-icon" aria-hidden="true" />
                                             <p><strong>Click for stadium details</strong></p>
                                         </div>
@@ -177,8 +177,8 @@
 
                             <label for="tours" class="pt-3">Stadium Tours</label>
                             <select class="custom-select" id="tours" name="tours">
-                                <option required>Which stadium/tour are you interested in?</option>
-                                <option value="Brentford" required>Brentford Community Stadium</option>
+                                <option>Which stadium/tour are you interested in?</option>
+                                <option value="Brentford">Brentford Community Stadium</option>
                                 <option value="Emirates">Emirates Stadium</option>
                                 <option value="London">London Stadium</option>
                                 <option value="Selhurst">Selhurst Park</option>
@@ -201,7 +201,7 @@
                     </div>
                 </div>
                 <!-- Modal for successful email submission -->
-                <div class="modal fade" id="email-success" tabindex="-1" role="dialog" aria-labelledby="email sent successfully" aria-hidden="true">
+                <div class="modal fade" id="email-success" tabindex="-1" role="dialog" aria-labelledby="email-success" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <!-- Modal for failed email submission -->
-                <div class="modal fade" id="email-fail" tabindex="-1" role="dialog" aria-labelledby="email failed to send" aria-hidden="true">
+                <div class="modal fade" id="email-fail" tabindex="-1" role="dialog" aria-labelledby="email-fail" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
