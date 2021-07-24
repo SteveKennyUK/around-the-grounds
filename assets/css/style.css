@@ -91,17 +91,17 @@ footer {
 }
 /*--- jumbotron ---*/
 .jumbotron {
-    height: 60vh;
-    max-width: 75%;
+    height: 65vh;
+    max-width: 80%;
     border-radius: 1rem;
     margin: 0 auto;
-    background-color: rgba(122, 172, 43, 0.675);
+    background-color: rgba(255, 255, 255, 0.8);
     margin-top: 5rem;
   }
 
   .hero-text-image img {
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 6rem;
+    height: 6rem;
   }
 /*================================== Stadiums section ==================================*/
 .stadiums-container {
@@ -317,6 +317,10 @@ footer {
         width: 100%;
         border-radius: 50%;
         background-color: #000;
+    }
+    /* Home page */
+    .hero-text-cta p {
+        font-size: 1.8rem;
     }
     /* Stadiums section - reduce black background on <h2> title for tablet size and above */
     #card-title {
