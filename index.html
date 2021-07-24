@@ -154,6 +154,7 @@
                             If you would like further information on any of the featured stadiums or would like us to arrange a stadium tour for you, please fill in the form below.
                         </p>
                     </div>
+                    <!-- Form body -->
                     <div class="col-12 contact-form">
                         <form method="POST" action="https://formdump.codeinstitute.net" id="form">
                             <fieldset>
@@ -199,11 +200,7 @@
                         </form>
                     </div>
                 </div>
-
-                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#email-success">
-                    <strong>TEST</strong>
-                </button>
-
+                <!-- Modal for successful email submission -->
                 <div class="modal fade" id="email-success" tabindex="-1" role="dialog" aria-labelledby="email sent successfully" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -222,8 +219,29 @@
                         </div>
                     </div>
                 </div>
+                <!-- Modal for failed email submission -->
+                <div class="modal fade" id="email-fail" tabindex="-1" role="dialog" aria-labelledby="email failed to send" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">An Error Has Occurred</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-center">
+                                    Please try to submit again.<br />
+                                    Check that all fields have been filled correctly.<br />
+                                    If problems persist, please contact us at <a href="mailto:info@aroundthegrounds.com" aria-label="email info@aroundthegrounds.com">info@aroundthegrounds.com</a>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary text-center" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
+        <!-- Contact section -->
         <!-- JavaScript -->
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

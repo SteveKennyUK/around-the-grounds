@@ -6,7 +6,7 @@
 const btn = document.getElementById("button");
 const contactForm = document.getElementById("form");
 
-form.addEventListener('submit', function(event) {
+contactForm.addEventListener("submit", function(event) {
    event.preventDefault(); // prevent reload
 
    btn.value = "Sending...";
@@ -17,13 +17,13 @@ form.addEventListener('submit', function(event) {
    emailjs.sendForm(serviceID, templateID, this)
     .then(function(response) {
         console.log("Success", response.status, response.text);  
-        $('#email-success').modal('show');  
+        $("#email-success").modal("show");  
         btn.value = "Send";
         resetForm();
     }, function(error) {
         console.log(JSON.stringify(error));
-        btn.value = "Send";
-      
+        $("#email-fail").modal("show"); 
+        btn.value = "Send";      
     });
 
     return false; // prevents the page from refreshing when the form is submitted
