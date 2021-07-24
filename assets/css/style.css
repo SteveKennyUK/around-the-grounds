@@ -20,6 +20,10 @@ body {
     scroll-behavior: smooth;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
 h2 {
     font-size: 3rem;
 }
@@ -85,6 +89,20 @@ footer {
     background-color: #000;
     position: relative;
 }
+/*--- jumbotron ---*/
+.jumbotron {
+    height: 60vh;
+    max-width: 75%;
+    border-radius: 1rem;
+    margin: 0 auto;
+    background-color: rgba(122, 172, 43, 0.675);
+    margin-top: 5rem;
+  }
+
+  .hero-text-image img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
 /*================================== Stadiums section ==================================*/
 .stadiums-container {
     background: url(../images/football-pitch-vert.jpg) center/cover no-repeat fixed;
