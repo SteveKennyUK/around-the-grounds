@@ -7,6 +7,16 @@
 
    var google;
    
+    // Function to close an open info window when another info window is opened
+   function closeOthers(infoObj, map) {
+    if (infoObj.length > 0) {
+        infoObj[0].set("marker", null);
+        infoObj[0].close();
+        infoObj[0].length = 0;
+        map.setZoom(9);
+    }
+}
+   
    function initMap() {
     // Set initial map properties
     
@@ -168,17 +178,8 @@
         });
         // 4) Add event listener for when each marker is clicked
         marker.addListener("click", function () {
-            // Function to close an open info window when another info window is opened
-            function closeOthers() {
-                if (infoObj.length > 0) {
-                    infoObj[0].set("marker", null);
-                    infoObj[0].close();
-                    infoObj[0].length = 0;
-                    map.setZoom(9);
-                }
-            }
-            
-            closeOthers();
+            // Close open info window    
+            closeOthers(infoObj, map);
             // Open new window for the clicked marker
             infoWindow.open(map, marker);
             infoObj[0] = infoWindow;
