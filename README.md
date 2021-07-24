@@ -241,6 +241,8 @@ The layout and content of the site has been designed with the User Experience at
 
 	- Each section will have a hero image to catch the user's attention and draw them into the page. This is consistent, predictable and learnable, thus helping to achieve a positive emotional response in the user.
 
+	- All images compressed to assist page loading times, using [TinyPNG](https://tinypng.com/).
+
 -  #### Wireframes
 
   
@@ -438,6 +440,8 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 - [Google Maps documentation](https://developers.google.com/maps/documentation/javascript/examples) provided guidance on Google Maps set up, markers and interactivity.  
 - [Eamonn Smyth](https://code-institute-room.slack.com/archives/C7HD37Q1F/p1604655940148200?thread_ts=1604655940.148200&cid=C7HD37Q1F) provided guidance with using Google Maps API.
 - [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System.
+- Code for the floating scroll to top button was provided by [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top) and slightly modified by the developer to suit the site. 
+- Many helpful hints and guidance were provided by posts by other developers on [Stack Overflow](https://stackoverflow.com/) - credits in the code where code snippets were used.
 
 ### Content
 
