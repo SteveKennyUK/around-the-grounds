@@ -44,3 +44,18 @@ One [warning](https://github.com/SteveKennyUK/around-the-grounds/blob/main/asset
 The Web Accessibility Evaluation Tool was used to check the accessibility standards of the site. 
 
 The site flagged up a few issues. Most of these were missing labels and colour contrast issues that had been missed during development. These issues were resolved. There is one labelling error and a few contrast issues [here](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/wave.JPG) but these are related to the Google Maps API and cannot be resolved. Otherwise, the site scores well. 
+
+---
+## [Google Chrome Developers Tools](https://developer.chrome.com/docs/devtools/)
+- Google Dev Tools was used extensively during project development to help identify and solve any syntax issues and console errors.
+- The Dev Tools [Lighthouse tool](https://developers.google.com/web/tools/lighthouse) is useful to check the performance quality of the site.
+    - **Desktop** The desktop performance comes up with good scores - Performance is 91%, Accessibility is 100%, Best Practices 93% and SEO 100%. See [link](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/lighthouse-1.JPG) for a copy of the report.
+    - **Mobile** The mobile Performance is lower, however, with a score of 61%. Other scores remain high, with Accessibility 100%, Best Practices 100% and SEO 100%.  The Performance score could certainly be improved, although many of the issues highlighted appear to be down to third party applications and libraries, such as Google Maps API and Bootstrap. See [link](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/lighthouse-2.JPG) for a copy of the report.
+- Responsiveness of different screen sizes was continually checked during the development process to ensure that the site rendered as well as possible on differing screen sizes and orientations. Although helpful, this is not foolproof so further responsiveness testing was required.
+
+---
+## Responsiveness Testing
+-   [Responsinator](https://www.responsinator.com/) was used to test the completed project on different devices. This highlighted some issues which were not apparent on Google Dev Tools, mostly involving landscape viewports. These were addressed and all devices are rendering well - please see [link](https://www.responsinator.com/?url=https%3A%2F%2Fstevekennyuk.github.io%2Faround-the-grounds%2F) for results.
+- In addition to automated tests, using real devices is desirable. Thanks to friends and family, I was able to test the site on various devices, including Samsung Galaxy S8, Samsung Galaxy S9, various iPhones, iPads, Samsung Galaxy Tabs, Asus Zenbook and Lenovo ThinkPad. Results were very positive. 
+The iPhone 5/SE simulation on Dev Tools does appear to still show some slight overlapping of elements but I was unable to test this on a real device. Having already spent a long time using media queries to try to resolve landscape issues on smaller devices, I feel that this would be best looked at in the future. There could be a lot of rewriting to try to accommodate an extremely small number of devices. Although ideally all devices should be accommodated, this may not always be an efficient use of resources.
+- In addition, an unusual bug was noticed when testing responsiveness - please see [Bugs](#bugs).
