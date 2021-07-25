@@ -70,6 +70,8 @@ The site was tested on a ASUS Zenbook desktop, Samsung Galaxy mobile and iPhone 
 - **Edge** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/edge-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
 - **Opera** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/opera-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
 
+[Return to Table of contents](#table-of-contents)
+
 ---
 ## Testing User Stories 
 
@@ -112,3 +114,49 @@ This project has the potential for large growth and the user stories were intend
 	* It is easy for users to find and display only the information that is relevant to themselves. The introductory hero text provides the user with immediate guidance. The user can go to the map, click on the stadiums of interest and only bring up the information about those stadiums, without being subjected to extraneous details. 
 * As a frequent visitor, I would like to be able to access further information on the site content, share my experiences and connect with other users of the site.
 	* If further information is required, this can be obtained via the contact section. The contact form helpfully provides a dropdown menu to guide the user. The contact form also provides the user with feedback as to their actions so that they know whether their request has been received. There are also social media links at the foot of the page.
+
+## Further Testing
+
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+- Peer reviews by fellow Code Institute students, mentors and tutors helped to identify areas I may have overlooked.
+
+-   A large amount of testing was done to ensure that all buttons, links and click events have the desired function. 
+
+All links to external sites should open in a new tab.
+
+**Home Page**
+| Location | Type | Expected Outcome | Pass/Fail|
+-----|-----|-----|-------|
+Navbar | Logo | Navigate to index.html| Pass
+Navbar | Home Link | Navigate to index.html | Pass
+Navbar | Stadiums Link | Navigate to index.html#stadiums | Pass
+Navbar | Contact Link | Navigate to index.html#contact | Pass
+Hero Text | 'Interactive Map' text| Navigate to index.html#stadiums | Pass
+Hero Text | 'Contact Page' text | Navigate to index.html#contact  | Pass
+Stadiums Section | Map Markers | Display corresponding crest and flip cards | Pass
+Stadiums Section | Flip Cards | Flip to reveal correct information| Pass
+Contact Form | Input Name Required | Require Name | Pass
+Contact Form | Input Name Required | Require Name | Pass
+Contact Form | Input Email Required | Require Email Address Including '@' | Pass
+Contact Form | Dropdown Menu | One Selection Required | Pass
+Contact Form | Textarea | Require Content | Pass
+Contact Form | Send Button | Require All Fields; 'Sending..' text| Pass
+Contact Form | Send Button | Open Confirmation/Failure Modal| Pass
+Modal | Close Button | Close Modal| Pass
+Footer | Social Media Link | Open Facebook | Pass
+Footer | Social Media Link | Open Instagram | Pass
+Footer | Social Media Link | Open Twitter | Pass
+Footer | Social Media Link | Open YouTube | Pass
+Floating | Scroll To Top Button | Navigate to top of page | Pass
+
+**404 Page**
+| Location | Type | Expected Outcome | Pass/Fail|
+-----|-----|-----|-------|
+Navbar | Logo | Navigate to index.html| Pass
+Navbar | Home Link | Navigate to index.html | Pass
+Navbar | Stadiums Link | Navigate to index.html#stadiums | Pass
+Navbar | Contact Link | Navigate to index.html#contact | Pass
+Page Body | 'Click to return home' text | Navigate to index.html | Pass
+
+[Return to Table of contents](#table-of-contents)
