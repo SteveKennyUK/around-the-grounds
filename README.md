@@ -285,6 +285,9 @@ The layout and content of the site has been designed with the User Experience at
 - As the user scrolls down the page, in the absence of a fixed navigation bar, a floating return to top arrow appears. This makes for a better experience than having to scroll back to the top of the page, which could encourage the user to leave the site.  
 - A styled 404 error page offers yet more reassurance to the user in the event of a site malfunction. Instead of a generic error response, this will display a familiar page with the same header and navigation links as the main site. An appealing background image and guidance on how to return to the site comfort the user and encourage them to go back to the site.
 ### Future Features
+- This project has the potential to grow with many additional features. The further use of APIs to show information local to each location, calculate distances on Google Maps and to attain JSON information from elsewhere are all possible.
+- The site could be expanded to include individual pages for each stadium with greater details. It could also be expanded to stadiums beyond London.
+- Further interactive features such as a live booking system could be incorporated.
 
 ## Technologies Used
 ---
