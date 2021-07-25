@@ -9,6 +9,8 @@ This project introduces interactivity through the use of JavaScript. The aim is 
 
 ## [View the live project here.](https://stevekennyuk.github.io/around-the-grounds/)
 
+![Mock-up](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/mock-up.JPG)
+
 # Table of contents  
 
 -  [UX](#ux)
@@ -486,6 +488,9 @@ Images were either created by the developer or sourced from third parties. Pleas
 	- [Background image](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/404-error.jpg) courtesy of [© Ylivdesign | <a href="https://www.stockfreeimages.com/">Stock Free Images</a>](https://www.stockfreeimages.com/23530406/404-error.html#).
 
 ### Acknowledgements
+- My Mentor Antonio Rodriguez for his advice, feedback and encouragement.  
+
+- Fellow Code Institute students, tutors and mentors on [Slack](https://slack.com/intl/en-gb/) were invaluable for their guidance when I ran into issues.
 
 ### Notice
 
