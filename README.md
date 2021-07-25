@@ -225,9 +225,11 @@ The layout and content of the site has been designed with the User Experience at
 	- [#7aac2b](https://icolorpalette.com/color/7aac2b) - the green shade in the palette looked too light for the navigation bar. The Google Dev Tools colour picker was used to find a more suitable, darker shade of green. This was checked with WebAIM. 
 
     It was decided that the background colour of each card should be synonymous with the stadium/football club. The following shades were chosen after checking background and foreground colours with WebAIM.
-		- [#ff6161](https://icolorpalette.com/color/ff6161) - light red shade.
-		- [#7f1734](https://icolorpalette.com/color/7f1734) - claret
-		- [104e75](https://icolorpalette.com/color/104e75) - blue shade
+
+	  - [#ff6161](https://icolorpalette.com/color/ff6161) - light red shade.
+	  - [#7f1734](https://icolorpalette.com/color/7f1734) - claret
+	  - [104e75](https://icolorpalette.com/color/104e75) - blue shade
+
 
 -  #### Typography
 
@@ -357,7 +359,7 @@ The layout and content of the site has been designed with the User Experience at
 1. [EmailJS](https://www.emailjs.com/) used to create email service.
 ## Testing
 ---
-Testing details can be found [here](TESTING.md).
+Testing details can be found [here](https://github.com/SteveKennyUK/around-the-grounds/blob/main/TESTING.MD).
 
 ## Deployment
 
