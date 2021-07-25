@@ -59,3 +59,13 @@ The site flagged up a few issues. Most of these were missing labels and colour c
 - In addition to automated tests, using real devices is desirable. Thanks to friends and family, I was able to test the site on various devices, including Samsung Galaxy S8, Samsung Galaxy S9, various iPhones, iPads, Samsung Galaxy Tabs, Asus Zenbook and Lenovo ThinkPad. Results were very positive. 
 The iPhone 5/SE simulation on Dev Tools does appear to still show some slight overlapping of elements but I was unable to test this on a real device. Having already spent a long time using media queries to try to resolve landscape issues on smaller devices, I feel that this would be best looked at in the future. There could be a lot of rewriting to try to accommodate an extremely small number of devices. Although ideally all devices should be accommodated, this may not always be an efficient use of resources.
 - In addition, an unusual bug was noticed when testing responsiveness - please see [Bugs](#bugs).
+
+---
+## Browser Compatibility
+[Autoprefixer](https://autoprefixer.github.io/) was used to add vendor browser prefixes. Manual testing was also carried out.
+
+The site was tested on a ASUS Zenbook desktop, Samsung Galaxy mobile and iPhone 11 using various browsers.
+- **Chrome** The site was developed using Chrome so works well. See [desktop screenshot](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/chrome-screenshot.JPG). Mobile view was good in portrait and landscape.
+- **Mozilla Firefox** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/firefox-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
+- **Edge** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/edge-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
+- **Opera** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/opera-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
