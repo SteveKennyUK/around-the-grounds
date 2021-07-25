@@ -69,3 +69,46 @@ The site was tested on a ASUS Zenbook desktop, Samsung Galaxy mobile and iPhone 
 - **Mozilla Firefox** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/firefox-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
 - **Edge** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/edge-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
 - **Opera** [Desktop](https://github.com/SteveKennyUK/around-the-grounds/blob/main/assets/images/testing/opera-screenshot.JPG) and mobile views were good (though with the same landscape view bug).
+
+---
+## Testing User Stories 
+
+This project has the potential for large growth and the user stories were intended to begin the process by creating a MVP. In testing these stories, it will be shown that this has been achieved.
+
+-  #### Site Owner/Business Goals
+
+* As the site owner, I want features and content that will engage new users quickly, encourage them to explore the site and draw them back in the future.
+	* The home page is very inviting with lively colours. The imposing hero image and use of a football icon in the hero text make it immediately clear what the site is about. The hero text also invites users to delve deeper into the site, with an intriguing and aesthetically pleasing second section to maintain interest.
+* As the site owner, I want users to be able to interact with the site and easily find the information that interests them.
+	* The interactive elements of the site make the user feel like they are in control and this encourages them to explore further. The interaction begins with clicking navigational links to take them to their destination, then expands to using a map to display relevant information only. The user then has the option of requesting further information via the contact page.
+* As the site owner, I want to provide users with useful information without overloading them.
+	* The site contains a lot of useful information but it is stored and revealed in a manner that will  not overwhelm the user nor expose them to swathes of irrelevant information. In allowing the user to choose the information that they wish to see, a smoother and more relaxed user experience is created.
+* As the site owner, I want the site to be accessible to all users.
+	*  The site uses assistive technology, such as aria labelling and ```sr-only``` Bootstrap classes. Semantic ```html``` is used to further assist screen readers.
+* As the site owner, I want to demonstrate the value of the site to potential business partners.
+	* The site not only provides useful information to users but also offers them a portal to visit the stadiums. The contact page is not simply an information provider but sets the foundations for providing a service. The attractive interactive design of the site will also alert business operatives to the number of potential customers that could be attracted to the site. The subject matter of the site is a multi-million pound industry and the site offers the owner a great opportunity to become a part of that industry.  
+
+-  #### User Goals (general)
+* As a user, I want to be immediately drawn into the site and understand its main purpose.
+	* The impressive stadium image is a striking introduction to the site. The use of football imagery, the green colour scheme and even the name of the site immediately let the user know what the site is about.
+* As a user, I want to be able to easily identify what I need and navigate the site to get to it.
+	* The unambiguous and visible navigation links plus further links in the hero text tell the user where matters of interest are located and how to get to them. The user is in control of where they go and viewing the information that is relevant to them. The markers on the map allow them to choose which information will be displayed to them and they can further interact with the information via a clickable flip card. The floating arrow also allows them to return to the top of the page at any time.
+* As a user, I want concise but informative content, displayed in an aesthetic and appealing manner.
+	* The information provided is set out in a brief and snappy manner. It is not meant as an encyclopedia to overwhelm the user but rather an overview to encourage the user to seek out more. The interactive provision of the information is designed to keep the user interested and urge them to explore more.
+* As a user, I want to be able to view the site clearly and intuitively on different device sizes.
+	* Given the widespread use of mobile devices, the site has been built from a mobile-first perspective. The site has been thoroughly tested to ensure, as much as possible, that content layout changes fluidly depending on the screen size so that the user experience should be the same, whether on a desktop or mobile device.
+* As a user, I expect the site to be fully accessible.
+	* As per the business user story, accessible needs are always considered when building the site. The choice of colours and contrasts are made carefully to make the site as visible as possible. Assistive labelling measures are also employed to further illustrate that the site is designed to be used by all. The positive WAVE and Lighthouse scores reflects this.
+	
+-  #### User Stories (customer users)
+
+* As a new visitor, I want to be quickly reassured that this site will be of interest to me.
+	* As mentioned in the user stories above, the home page is deliberately intended to make the purpose of the site unambiguous. Imagery, colours and text content work together to achieve this goal.
+* As a new visitor, I want to be able to identify the content of the site and be able to easily navigate to areas of interest e.g. can I visit the stadiums?
+	* The navigation links at the top of the page are clearly set out and use striking colours (which are accessible friendly) to draw the user's attention. They are placed in a predictable position and the hamburger menu on mobile devices is equally predictable to the user.	The links use short but descriptive wording to convey their purpose.
+* As a new visitor, I would like to know where the stadiums are located. 
+	* The use of the Google Maps JavaScript API provides a visual representation of the stadium locations. Users can interact with the map to explore the stadium locations.	
+* As a new or returning visitor, I would like to be able to interact with the site so that I can easily display only the information on the stadiums that are of interest to me.
+	* It is easy for users to find and display only the information that is relevant to themselves. The introductory hero text provides the user with immediate guidance. The user can go to the map, click on the stadiums of interest and only bring up the information about those stadiums, without being subjected to extraneous details. 
+* As a frequent visitor, I would like to be able to access further information on the site content, share my experiences and connect with other users of the site.
+	* If further information is required, this can be obtained via the contact section. The contact form helpfully provides a dropdown menu to guide the user. The contact form also provides the user with feedback as to their actions so that they know whether their request has been received. There are also social media links at the foot of the page.
